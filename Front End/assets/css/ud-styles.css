@@ -510,7 +510,7 @@ p {
 
 /* ===== Hero CSS ===== */
 .ud-hero {
-  background: url(/assets/images/back2.JPG);
+  background: url(../images/back2.JPG);
   background-position: center;
   background-size: cover;
   padding-top: 180px;
@@ -869,6 +869,7 @@ p {
   border: 1px solid rgba(0, 0, 0, 0.08);
   display: -webkit-box;
   display: -ms-flexbox;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -2814,6 +2815,38 @@ p {
   padding-top: 10px;
   padding-bottom: 10px;
   
+}
+
+.persyaratan {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.persyaratan img {
+  width: 650px;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/* persyaratan */
+.bi-persyaratan {
+  padding-top: 30px;
+  padding-bottom: 90px;
+  text-align: justify;
+}
+
+.desc-persyaratan {
+  text-align: justify;
+  max-width: 1200px;
+}
+
+.desc-persyaratan h4 {
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .tag{
