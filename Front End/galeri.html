@@ -102,12 +102,22 @@
     <!-- ====== Header End ====== -->
 
     <!-- ====== Banner Start ====== -->
-    <section class="ud-page-banner">
+    <section class="ud-page-banner-genbi">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <div class="ud-banner-content">
-              <h1>gallery GenBI Cirebon</h1>
+            <div class="ud-banner-genbi-content">
+              <h1>Daftar Gallery GenBI Cirebon</h1>
+              <ol class="banner-link">
+                <li class="banner-link-nav">
+                  <a class="nav-satu"  href="">Home</a>
+                </li>
+    
+                <li class="banner-link-nav">
+                  <a class="active" href="">Gallery</a>
+                </li> 
+              </ol>
+              
             </div>
           </div>
         </div>
@@ -115,51 +125,62 @@
     </section>
 
     <!-- ====== Banner End ====== -->
-       <section class="pembina" id="pembina">
+       <section class="galeri" id="galeri">
         <div class="container">
-          <div class="search-box">
-            <i class="bx bx-search"><img src="assets/images/search (2).png" alt=""></i>
-            <input type="text" placeholder="Search a movie" />
-          
+          <div class="ud-section-title mx-auto text-center">
+            <span class="tag">Gallery</span>
+            <h2>Galeri GenBI Cirebon</h2>
           </div>
-
-          <div class="gallery">
-            
-            <ul class="controls">
-              <li class="buttons active" data-filter="all">all</li>
-                <li class="buttons LC" data-filter="leadership">Leadership Camp</li>
-                <li class="buttons" data-filter="genbicirebon">GenBi Cirebon</li>
-                <li class="buttons" data-filter="iain"> GenBI IAIN</li>
-                <li class="buttons" data-filter="uibbc"> GenBI UIBBC</li>
-                <li class="buttons" data-filter="unma"> GenBI UNMA</li>
-                <li class="buttons" data-filter="unwir"> GenBI UNWIR</li>
-                <li class="buttons" data-filter="uniku"> GenBI UNIKU</li>
-              </ul>
-              
-              
-            <div class="image-container">
-        
-                <a href="assets/images/lc5.JPG" class="image leadership" >
-                    <img src="assets/images/lc5.JPG" alt="">
-                </a>
-                <a href="assets/images/IMG_1965.JPG" class="image iain">
-                    <img src="assets/images/IMG_1965.JPG" alt="">
-                </a>
-        
-                <a href="assets/images/unma2.jpg" class="image unma">
-                    <img src="assets/images/unma2.jpg" alt="">
-                  </a>
-                  <a href="assets/images/unma8.jpg" class="image unma">
-                    <img src="assets/images/unma8.JPG" alt="">
-                  </a>
-                <a href="assets/images/IMG-20230312-WA0031.jpg" class="image uibbc">
-                  <img src="assets/images/IMG-20230312-WA0031.jpg" alt="">
-                </a>               
-              
+          <div class="wrapper-gallery">
+            <!-- filter Items -->
+            <nav>
+              <div class="items">
+                <span class="item active" data-name="all">All</span>
+                <span class="item " data-name="lc">LC</span>
+                <span class="item" data-name="iain ">IAIN </span>
+                <span class="item" data-name="unma">UNMA</span>
+                <span class="item" data-name="uniku">UNIKU</span>
+                <span class="item" data-name="uibbc">UIBBC</span>
+                <span class="item" data-name="unwir">UNWIR</span>
               </div>
-              
+            </nav>
+            <!-- filter Images -->
+            <div class="gallery">
+              <div class="image" data-name="lc"><span><img src="assets/images/lc6.JPG" alt=""></span></div>
+              <div class="image" data-name="iain "><span><img src="assets/images/IMG_1965.JPG" alt=""></span></div>
+              <div class="image" data-name="uibbc"><span><img src="assets/images/20150212003631_IMG_1957.JPG" alt=""></span></div>
+              <div class="image" data-name="unma"><span><img src="assets/images/champs.jpg" alt=""></span></div>
+              <div class="image" data-name="lc"><span><img src="assets/images/Snapinsta.app_356031888_660577115476723_4676831135056140397_n_1080.jpg" alt=""></span></div>
+              <div class="image" data-name="uibbc"><span><img src="assets/images/IMG20230114094410.jpg" alt=""></span></div>
+              <div class="image" data-name="lc"><span><img src="assets/images/loginbg.JPG" alt=""></span></div>
+              <div class="image" data-name="uniku"><span><img src="assets/images/IMG-20230312-WA0031.jpg" alt=""></span></div>
+              <div class="image" data-name="unma"><span><img src="assets/images/unma8.JPG" alt=""></span></div>
+              <div class="image" data-name="unwir"><span><img src="assets/images/6d915b10-35f6-4dd5-958c-17ac439faf06.jpg" alt=""></span></div>
+              <div class="image" data-name="unma"><span><img src="assets/images/unma2.jpg" alt=""></span></div>
+              <div class="image" data-name="unma"><span><img src="assets/images/unma8.JPG" alt=""></span></div>
+              <div class="image" data-name="unwir"><span><img src="assets/images/6d915b10-35f6-4dd5-958c-17ac439faf06.jpg" alt=""></span></div>
+              <div class="image" data-name="lc"><span><img src="assets/images/lc1.JPG" alt=""></span></div>
+              <div class="image" data-name="unma"><span><img src="assets/images/unma2.jpg" alt=""></span></div>
+              <div class="image" data-name="unma"><span><img src="assets/images/unma2.jpg" alt=""></span></div>
+            </div>
+            <div class="button-center">
+              <a  class="showLess ud-main-btn ud-link-btn " id="showLess" style="display: none;">Lihat lebih sedikit </i></a>
+              <a  class="loadMore ud-main-btn ud-link-btn" id="loadMore">Lihat Lebih Banyak</a>
             </div>
           </div>
+          <!-- fullscreen img preview box -->
+          <div class="preview-box">
+            <div class="details">
+              <span class="title">Image Category: <p></p></span>
+              
+              <span class="icon fas fa-times">close</span>
+              <span class="prev icon prev-button">&lt;</span>
+              <span class="next icon next-button">&gt;</span>
+            </div>
+            <div class="image-box"><img src="" alt=""></div>
+          </div>
+          <div class="shadow"></div>
+        </div>
        </section>
 
    <!-- ====== Footer Start ====== -->
@@ -174,7 +195,7 @@
                 </a>
 
                 <p  class="ud-widget-desc">
-                  Generasi Baru Indonesia a.k.a GenBI ialah sebuah komunitas yang terdiri dari beberapa kumpulan mahasiswa dari berbagai universitas pada sebuah wilayah yang terpilih sebagai penerima beasiswa Bank Indonesia.
+                  Generasi Baru Indonesia a.k.a GenBI ialah sebuah komunitas yang terdiri dari beberapa kumpulan mahasiswa dari berIAIN ai universitas pada sebuah wilayah yang terpilih seIAIN ai penerima beasiswa Bank Indonesia.
                 </p>
                 <ul class="ud-widget-socials">
                   <li>
@@ -307,38 +328,119 @@
     <script src="assets/js/carousel.js"></script>
     <script src="assets/js/cdnjs.cloudflare.com_ajax_libs_jquery_3.5.1_jquery.min.js"></script>
     <script src="assets/js/cdnjs.cloudflare.com_ajax_libs_magnific-popup.js_1.1.0_jquery.magnific-popup.min.js"></script>
+    <script>
 
+const filterItem = document.querySelector(".items");
+const filterImg = document.querySelectorAll(".gallery .image");
+const prevButton = document.querySelector(".prev-button");
+const nextButton = document.querySelector(".next-button");
+
+let currentImageIndex = 0;
+
+window.onload = () => {
+  filterItem.onclick = (selectedItem) => {
+    if (selectedItem.target.classList.contains("item")) {
+      filterItem.querySelector(".active").classList.remove("active");
+      selectedItem.target.classList.add("active");
+      let filterName = selectedItem.target.getAttribute("data-name");
+      filterImg.forEach((image) => {
+        let filterImges = image.getAttribute("data-name");
+        if (filterImges == filterName || filterName == "all") {
+          image.classList.remove("hide");
+          image.classList.add("show");
+        } else {
+          image.classList.add("hide");
+          image.classList.remove("show");
+        }
+      });
+    }
+  };
+  for (let i = 0; i < filterImg.length; i++) {
+    filterImg[i].setAttribute("onclick", `preview(this, ${i})`);
+  }
+};
+
+const previewBox = document.querySelector(".preview-box");
+const categoryName = previewBox.querySelector(".title p");
+const previewImg = previewBox.querySelector("img");
+const closeIcon = previewBox.querySelector(".icon");
+const shadow = document.querySelector(".shadow");
+
+function showImage(index) {
+  let selectedImage = filterImg[index];
+  let selectedPrevImg = selectedImage.querySelector("img").src;
+  let selectedImgCategory = selectedImage.getAttribute("data-name");
+  previewImg.src = selectedPrevImg;
+  categoryName.textContent = selectedImgCategory;
+}
+
+function showNextImage() {
+  currentImageIndex = (currentImageIndex + 1) % filterImg.length;
+  showImage(currentImageIndex);
+}
+
+function showPrevImage() {
+  currentImageIndex = (currentImageIndex - 1 + filterImg.length) % filterImg.length;
+  showImage(currentImageIndex);
+}
+
+function hidePreview() {
+  previewBox.classList.remove("show");
+  shadow.classList.remove("show");
+  document.querySelector("body").style.overflow = "auto";
+}
+
+function setupPreview() {
+  closeIcon.onclick = hidePreview;
+}
+
+function preview(element, index) {
+  document.querySelector("body").style.overflow = "hidden";
+  currentImageIndex = index;
+  showImage(currentImageIndex);
+  previewBox.classList.add("show");
+  shadow.classList.add("show");
+  setupPreview();
+}
+
+prevButton.addEventListener("click", showPrevImage);
+nextButton.addEventListener("click", showNextImage);
+
+    </script>
 
 <script>
+  $(document).ready(function () {
+var list = $(".image");
+var numToShow = 4;
+var buttonLoadMore = $("#loadMore");
+var buttonShowLess = $("#showLess");
+var numInList = list.length;
 
-$(document).ready(function(){
+list.hide();
+if (numInList > numToShow) {
+buttonLoadMore.show();
+}
 
-    $('.buttons').click(function(){
+list.slice(0, numToShow * 3).show(); // Menampilkan 6 kartu pertama
 
-        $(this).addClass('active').siblings().removeClass('active');
-
-        var filter = $(this).attr('data-filter')
-
-        if(filter == 'all'){
-            $('.image').show(400);
-        }else{
-            $('.image').not('.'+filter).hide(200);
-            $('.image').filter('.'+filter).show(400);
-        }
-
-    });
-
-    $('.gallery').magnificPopup({
-
-        delegate:'a',
-        type:'image',
-        gallery:{
-            enabled:true
-        }
-
-    });
-
+buttonLoadMore.click(function () {
+var showing = list.filter(":visible").length;
+list.slice(showing, showing + numToShow).fadeIn();
+var nowShowing = list.filter(":visible").length;
+if (nowShowing >= numInList) {
+  buttonLoadMore.hide();
+  buttonShowLess.show();
+}
 });
+
+buttonShowLess.click(function () {
+list.hide();
+list.slice(0, numToShow * 3).show(); // Menampilkan 6 kartu pertama
+buttonLoadMore.show();
+buttonShowLess.hide();
+});
+});
+
 
 </script>
   </body>

@@ -19,7 +19,6 @@ Author: lineicons.com
   font: normal normal normal 1em/1 'LineIcons';
   color: inherit;
   flex-shrink: 0;
-  speak: none;
   text-transform: none;
   line-height: 1;
   vertical-align: -.125em;
@@ -2096,7 +2095,9 @@ Author: lineicons.com
 .lni-vk::before {
   content: "\ebf8";
 }
-
+.lni-healthcare {
+  content: "\ebf10";
+}
 .lni-volume-high::before {
   content: "\ebf9";
 }
@@ -2208,3 +2209,5 @@ Author: lineicons.com
 .lni-zoom-out::before {
   content: "\ec14";
 }
+
+
