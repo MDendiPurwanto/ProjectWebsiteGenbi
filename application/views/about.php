@@ -15,11 +15,13 @@
       type="image/svg"
     />
     <!-- ===== All CSS files ===== -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <link rel="stylesheet" href="assets/css/lineicons.css" />
-    <link rel="stylesheet" href="assets/css/ud-styles.css" />
-    <link rel="stylesheet" href="assets/css/aos.css" />
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>" />
+<link rel="stylesheet" href="<?php echo base_url('assets/css/animate.css'); ?>" />
+<link rel="stylesheet" href="<?php echo base_url('assets/css/lineicons.css'); ?>" />
+<link rel="stylesheet" href="<?php echo base_url('assets/css/ud-styles.css'); ?>" />
+<link rel="stylesheet" href="<?php echo base_url('assets/css/aos.css'); ?>" />
+
+    
   </head>
   <body>
     <!-- ====== Header Start ====== -->
@@ -146,7 +148,7 @@
             </div>
           </div>
           <div class="bi-tentang-image"data-aos="fade-left" data-aos-duration="1000">
-            <img src="assets/images/logo.png" alt="about-image" />
+            <img src="<?php echo base_url('assets/images/logo.png'); ?>" alt="about-image" />
           </div>
         </div>
       </div>
@@ -311,7 +313,8 @@
             <div class="col-xl-3 col-lg-4 col-md-6">
               <div class="ud-widget">
                 <a href="index.html" class="ud-footer-logo">
-                  <img src="assets/images/GenBI original.png" alt="logo" />
+                <img src="<?php echo base_url('assets/images/GenBI original.png'); ?>" alt="logo" />
+
                 </a>
 
                 <p  class="ud-widget-desc">
@@ -404,10 +407,8 @@
                       href="#"
                      
                     >
-                      <img
-                        src="assets/images/bi-b.png"
-                        alt="ayroui"
-                      />
+                    <img src="<?php echo base_url('assets/images/bi-b.png'); ?>" alt="ayroui" />
+
                     </a>
                   </li>
                  
@@ -432,11 +433,10 @@
     </a>
     <!-- ====== Back To Top End ====== -->
 
-    <!-- ====== All Javascript Files ====== -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/aos.js"></script>
+    <script src="<?php echo base_url('assets/js/bootstrap.bundle.min.js'); ?>"></script>
+    <script src="<?php echo base_url('assets/js/wow.min.js'); ?>"></script>
+    <script src="<?php echo base_url('assets/js/main.js'); ?>"></script>
+    <script src="<?php echo base_url('assets/js/aos.js'); ?>"></script>
     <script>
       AOS.init();
     </script>
