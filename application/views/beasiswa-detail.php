@@ -11,20 +11,98 @@
     <!--====== Favicon Icon ======-->
     <link
       rel="shortcut icon"
-      href="assets/images/logo.png"
+      href="assets/images/favicon.svg"
       type="image/svg"
     />
-    <!-- ===== All CSS files ===== -->
-    <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>" />
-<link rel="stylesheet" href="<?php echo base_url('assets/css/animate.css'); ?>" />
-<link rel="stylesheet" href="<?php echo base_url('assets/css/lineicons.css'); ?>" />
-<link rel="stylesheet" href="<?php echo base_url('assets/css/ud-styles.css'); ?>" />
-<link rel="stylesheet" href="<?php echo base_url('assets/css/aos.css'); ?>" />
 
+    <!-- ===== All CSS files ===== -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/lineicons.css" />
+    <link rel="stylesheet" href="assets/css/ud-styles.css" />
   </head>
   <body>
     <!-- ====== Header Start ====== -->
-  
+    <header class="ud-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <nav class="navbar navbar-expand-lg">
+              <a class="logo" href="index.html">
+                <img src="assets/images/Logo GenBI Cirebon .png" alt="Logo" />
+              </a>
+              <button class="navbar-toggler">
+                <span class="toggler-icon"> </span>
+                <span class="toggler-icon"> </span>
+                <span class="toggler-icon"> </span>
+              </button>
+
+              <div class="navbar-collapse">
+                <ul id="nav" class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                    <a class="ud-menu-scroll" href="index.html">Beranda</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="ud-submenu-link" href="program.html">Kegiatan</a>
+                  </li>
+                  <li class="nav-item nav-item-has-children">
+                    <a href="javascript:void(0)"> Beasiswa BI </a>
+                    <ul class="ud-submenu">
+                      <li class="ud-submenu-item">
+                        <a href="tentangbi.html" class="ud-submenu-link">
+                        Tentang BI
+                        </a>
+                      </li>
+                      <li class="ud-submenu-item">
+                        <a href="persyaratan.html" class="ud-submenu-link">
+                        Persyaratan Beasiswa
+                        </a>
+                      </li>
+                      <li class="ud-submenu-item">
+                        <a href="beasiswa.html" class="ud-submenu-link">
+                          Beasiswa
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a href="blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="galeri.html">Gallery</a>
+                  </li>
+                  <li class="nav-item nav-item-has-children">
+                    <a href="javascript:void(0)"> Tentang </a>
+                    <ul class="ud-submenu">
+                      <li class="ud-submenu-item">
+                        <a href="about.html" class="ud-submenu-link">
+                        Tentang GenBI
+                        </a>
+                      </li>
+                      <li class="ud-submenu-item">
+                        <a href="pengurus.html" class="ud-submenu-link">
+                          Pengurus GenBI Cirebon
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="navbar-btn d-none d-sm-inline-block">
+                <a href="login.html" class="ud-main-btn ud-login-btn">
+                  Masuk
+                </a>
+                <a class="ud-main-btn ud-white-btn" href="javascript:void(0)">
+                  Daftar
+                </a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
     <!-- ====== Header End ====== -->
 
     <!-- ====== Banner Start ====== -->
@@ -32,7 +110,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <div class="ud-banner-genbi-content" >
+            <div class="ud-banner-genbi-content">
               <h1>Penerimaan Beasiswa BI 2023</h1>
               <ol class="banner-link">
                 <li class="banner-link-nav">
@@ -56,21 +134,21 @@
    <section class="detail-beasiswa" id="detail-beasiswa">
     <div class="container">
       <div class="row">
-        <div class="ud-section-title mx-auto text-center"data-aos="fade-up" data-aos-duration="1000">
+        <div class="ud-section-title mx-auto text-center">
           <span class="tag">
             Beasiswa BI
           </span>
             <h2>Beasiswa Bank Indonesia </h2>
         </div>
-        <div class="img-detail-bea" data-aos="fade-up-right" data-aos-duration="1000">
+        <div class="img-detail-bea">
           <img src="assets/images/beasiswa.jpg" alt="">
           
         </div>
-        <div class="p-detail-bea" data-aos="fade-up" data-aos-duration="1000">
-          Saat ini GenBI di wilayah kerja KPwBI Cirebon terdiri 6 komisariat 
+        <div class="p-detail-bea">
+          Saat ini GenBI di wilayah kerja KPwBI Cirebon terdiri 5 komisariat 
         </div>
 
-        <div class="org-container" data-aos="fade-up" data-aos-duration="1000">
+        <div class="org-container">
           <div class="org-item">
             <i class="lni lni-download"></i>
             <a href="assets/download/50 PENERIMA T 1 2023 V0.2 (1).xlsx" onclick="return confirmDownload('Universitas Wiralodra')">
@@ -97,12 +175,6 @@
           <div class="org-item item-dua"> 
             <i class="lni lni-download"></i>
             <a href="assets/download/1-s2.0-S1319157822003548-main.pdf" onclick="return confirmDownload('Universitas Islam Bunga Bangsa Indonesia');" download>
-          Universitas Swadaya Gunung Jati Cirebon
-        </a>
-        </div>
-          <div class="org-item item-dua"> 
-            <i class="lni lni-download"></i>
-            <a href="assets/download/1-s2.0-S1319157822003548-main.pdf" onclick="return confirmDownload('Universitas Islam Bunga Bangsa Indonesia');" download>
           Universitas Islam Bunga Bangsa Cirebon
         </a>
         </div>
@@ -118,7 +190,7 @@
             <div class="col-xl-3 col-lg-4 col-md-6">
               <div class="ud-widget">
                 <a href="index.html" class="ud-footer-logo">
-                  <img src="assets/images/GenBI original.png" alt="logo" />
+                  <img src="assets/images/Logo GenBI Cirebon .png" alt="logo" />
                 </a>
 
                 <p  class="ud-widget-desc">
@@ -126,13 +198,13 @@
                 </p>
                 <ul class="ud-widget-socials">
                   <li>
-                    <a href="#" class="facebook">
-                      <i class="lni lni-facebook-filled icon-footer facebook"></i>
+                    <a href="#">
+                      <i><img src="assets/images/facebook (3).png" alt=""></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="instagram">
-                      <i class="lni lni-instagram-filled icon-footer instagram"></i>
+                    <a href="#">
+                      <i ><img src="assets/images/instagram (1).png" alt=""></i>
                     </a>
                   </li>
                   <li>
@@ -141,13 +213,8 @@
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="twitter">
-                      <i class="lni lni-twitter-filled icon-footer"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="javascript:void(0)" class="linkedin">
-                      <i class="lni lni-youtube icon-footer"></i>
+                    <a href="#">
+                      <i> <img src="assets/images/twitter.png" alt=""></i>
                     </a>
                   </li>
                 </ul>
@@ -226,9 +293,26 @@
       </div>
       <div class="ud-footer-bottom">
         <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <ul class="ud-footer-bottom-left">
+                <li>
+                  <a href="javascript:void(0)">Lorem, ipsum dolor.</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)">Lorem, ipsum dolor.</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)">Lorem, ipsum dolor.</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-4">
               <p class="ud-footer-bottom-right">
-                <a href="#" rel="nofollow">© 2023 • GenBI Cirebon 2023</a>
+                <a href="#" rel="nofollow">GenBI Cirebon 2023</a>
               </p>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
@@ -240,13 +324,9 @@
     <!-- ====== Back To Top End ====== -->
 
     <!-- ====== All Javascript Files ====== -->
-    <script src="<?php echo base_url('assets/js/bootstrap.bundle.min.js'); ?>"></script>
-    <script src="<?php echo base_url('assets/js/wow.min.js'); ?>"></script>
-    <script src="<?php echo base_url('assets/js/main.js'); ?>"></script>
-    <script src="<?php echo base_url('assets/js/aos.js'); ?>"></script>
-    <script>
-      AOS.init();
-    </script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/main.js"></script>
     <script>
       function confirmDownload(itemName) {
         return confirm('Apakah Anda yakin ingin mendownload file untuk ' + itemName + '?');

@@ -19,9 +19,10 @@
     <!--====== Favicon Icon ======-->
     <link
       rel="shortcut icon"
-      href="assets/images/logo.png"
+      href="assets/images/favicon.svg"
       type="image/svg"
     />
+
     <!-- ===== All CSS files ===== -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/animate.css" />
@@ -30,7 +31,81 @@
   </head>
   <body>
     <!-- ====== Header Start ====== -->
-   
+    <header class="ud-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <nav class="navbar navbar-expand-lg">
+              <a class="logo" href="index.html">
+                <img src="assets/images/Logo GenBI Cirebon .png" alt="Logo" />
+              </a>
+              <button class="navbar-toggler">
+                <span class="toggler-icon"> </span>
+                <span class="toggler-icon"> </span>
+                <span class="toggler-icon"> </span>
+              </button>
+
+              <div class="navbar-collapse">
+                <ul id="nav" class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                    <a class="ud-menu-scroll" href="index.html">Beranda</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="ud-menu-scroll" href="#">Kegiatan</a>
+                  </li>
+                   <li class="nav-item nav-item-has-children">
+                    <a href="javascript:void(0)"> Beasiswa BI </a>
+                    <ul class="ud-submenu">
+                      <li class="ud-submenu-item">
+                        <a href="Tentang BI" class="ud-submenu-link">
+                        Tentang BI
+                        </a>
+                      </li>
+                      <li class="ud-submenu-item">
+                        <a href="#" class="ud-submenu-link">
+                          Beasiswa
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a href="blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="ud-menu-scroll" href="#contact">Contact</a>
+                  </li>
+                  <li class="nav-item nav-item-has-children">
+                    <a href="javascript:void(0)"> About </a>
+                    <ul class="ud-submenu">
+                      <li class="ud-submenu-item">
+                        <a href="about.html" class="ud-submenu-link">
+                        Tentang GenBI
+                        </a>
+                      </li>
+                      <li class="ud-submenu-item">
+                        <a href="pengurus.html" class="ud-submenu-link">
+                          Pengurus GenBI Cirebon
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="navbar-btn d-none d-sm-inline-block">
+                <a href="login.html" class="ud-main-btn ud-login-btn">
+                  Masuk
+                </a>
+                <a class="ud-main-btn ud-white-btn" href="javascript:void(0)">
+                  Daftar
+                </a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
     <!-- ====== Header End ====== -->
 
     <!-- ====== Banner Start ====== -->
@@ -143,7 +218,7 @@
             <div class="col-xl-3 col-lg-4 col-md-6">
               <div class="ud-widget">
                 <a href="index.html" class="ud-footer-logo">
-                  <img src="assets/images/GenBI original.png" alt="logo" />
+                  <img src="assets/images/Logo GenBI Cirebon .png" alt="logo" />
                 </a>
 
                 <p  class="ud-widget-desc">
@@ -151,13 +226,13 @@
                 </p>
                 <ul class="ud-widget-socials">
                   <li>
-                    <a href="#" class="facebook">
-                      <i class="lni lni-facebook-filled icon-footer facebook"></i>
+                    <a href="#">
+                      <i><img src="assets/images/facebook (3).png" alt=""></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="instagram">
-                      <i class="lni lni-instagram-filled icon-footer instagram"></i>
+                    <a href="#">
+                      <i ><img src="assets/images/instagram (1).png" alt=""></i>
                     </a>
                   </li>
                   <li>
@@ -166,13 +241,8 @@
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="twitter">
-                      <i class="lni lni-twitter-filled icon-footer"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="javascript:void(0)" class="linkedin">
-                      <i class="lni lni-youtube icon-footer"></i>
+                    <a href="#">
+                      <i> <img src="assets/images/twitter.png" alt=""></i>
                     </a>
                   </li>
                 </ul>
@@ -252,13 +322,19 @@
       <div class="ud-footer-bottom">
         <div class="container">
           <div class="row">
-            <div class="ud-footer-bottom">
-        <div class="container">
-              <p class="ud-footer-bottom-right">
-                <a href="#" rel="nofollow">© 2023 • GenBI Cirebon 2023</a>
-              </p>
-        </div>
-      </div>
+            <div class="col-md-8">
+              <ul class="ud-footer-bottom-left">
+                <li>
+                  <a href="javascript:void(0)">Lorem, ipsum dolor.</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)">Lorem, ipsum dolor.</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)">Lorem, ipsum dolor.</a>
+                </li>
+              </ul>
+            </div>
             <div class="col-md-4">
               <p class="ud-footer-bottom-right">
                 <a href="#" rel="nofollow">GenBI Cirebon 2023</a>

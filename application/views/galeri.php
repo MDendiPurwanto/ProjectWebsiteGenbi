@@ -11,20 +11,99 @@
     <!--====== Favicon Icon ======-->
     <link
       rel="shortcut icon"
-      href="assets/images/logo.png"
+      href="assets/images/favicon.svg"
       type="image/svg"
     />
-    <!-- ===== All CSS files ===== -->
-    <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>" />
-<link rel="stylesheet" href="<?php echo base_url('assets/css/animate.css'); ?>" />
-<link rel="stylesheet" href="<?php echo base_url('assets/css/lineicons.css'); ?>" />
-<link rel="stylesheet" href="<?php echo base_url('assets/css/ud-styles.css'); ?>" />
-<link rel="stylesheet" href="<?php echo base_url('assets/css/aos.css'); ?>" />
 
+    <!-- ===== All CSS files ===== -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/lineicons.css" />
+    <link rel="stylesheet" href="assets/css/ud-styles.css" />
+    <link rel="stylesheet" href="assets/css/cdnjs.cloudflare.com_ajax_libs_magnific-popup.js_1.1.0_magnific-popup.min.css" />
   </head>
   <body>
     <!-- ====== Header Start ====== -->
-   
+    <header class="ud-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <nav class="navbar navbar-expand-lg">
+              <a class="logo" href="index.html">
+                <img src="assets/images/Logo GenBI Cirebon .png" alt="Logo" />
+              </a>
+              <button class="navbar-toggler">
+                <span class="toggler-icon"> </span>
+                <span class="toggler-icon"> </span>
+                <span class="toggler-icon"> </span>
+              </button>
+
+              <div class="navbar-collapse">
+                <ul id="nav" class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                    <a class="ud-menu-scroll" href="index.html">Beranda</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="ud-submenu-link" href="program.html">Kegiatan</a>
+                  </li>
+                  <li class="nav-item nav-item-has-children">
+                    <a href="javascript:void(0)"> Beasiswa BI </a>
+                    <ul class="ud-submenu">
+                      <li class="ud-submenu-item">
+                        <a href="tentangbi.html" class="ud-submenu-link">
+                        Tentang BI
+                        </a>
+                      </li>
+                      <li class="ud-submenu-item">
+                        <a href="persyaratan.html" class="ud-submenu-link">
+                        Persyaratan Beasiswa
+                        </a>
+                      </li>
+                      <li class="ud-submenu-item">
+                        <a href="beasiswa.html" class="ud-submenu-link">
+                          Beasiswa
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a href="blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="galeri.html">Gallery</a>
+                  </li>
+                  <li class="nav-item nav-item-has-children">
+                    <a href="javascript:void(0)"> Tentang </a>
+                    <ul class="ud-submenu">
+                      <li class="ud-submenu-item">
+                        <a href="about.html" class="ud-submenu-link">
+                        Tentang GenBI
+                        </a>
+                      </li>
+                      <li class="ud-submenu-item">
+                        <a href="pengurus.html" class="ud-submenu-link">
+                          Pengurus GenBI Cirebon
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="navbar-btn d-none d-sm-inline-block">
+                <a href="login.html" class="ud-main-btn ud-login-btn">
+                  Masuk
+                </a>
+                <a class="ud-main-btn ud-white-btn" href="javascript:void(0)">
+                  Daftar
+                </a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
     <!-- ====== Header End ====== -->
 
     <!-- ====== Banner Start ====== -->
@@ -53,14 +132,14 @@
     <!-- ====== Banner End ====== -->
        <section class="galeri" id="galeri">
         <div class="container">
-          <div class="ud-section-title mx-auto text-center"data-aos="fade-up" data-aos-duration="1000">
+          <div class="ud-section-title mx-auto text-center">
             <span class="tag">Gallery</span>
             <h2>Galeri GenBI Cirebon</h2>
           </div>
           <div class="wrapper-gallery">
             <!-- filter Items -->
             <nav>
-              <div class="items" data-aos="fade-down" data-aos-duration="1000">
+              <div class="items">
                 <span class="item active" data-name="all">All</span>
                 <span class="item " data-name="lc">LC</span>
                 <span class="item" data-name="iain ">IAIN </span>
@@ -72,65 +151,66 @@
             </nav>
             <!-- filter Images -->
             <div class="gallery">
-              <div class="image" data-name="lc" data-aos="fade-up" data-aos-duration="1000"><span><img src="assets/images/lc6.JPG" alt=""></span></div>
-              <div class="image" data-name="iain "data-aos="fade-up" data-aos-duration="1000"><span><img src="assets/images/IMG_1965.JPG" alt=""></span></div>
-              <div class="image" data-name="uibbc"data-aos="fade-up" data-aos-duration="1000"><span><img src="assets/images/20150212003631_IMG_1957.JPG" alt=""></span></div>
-              <div class="image" data-name="unma"data-aos="fade-up" data-aos-duration="1000"><span><img src="assets/images/champs.jpg" alt=""></span></div>
-              <div class="image" data-name="lc"data-aos="fade-up" data-aos-duration="1000"><span><img src="assets/images/Snapinsta.app_356031888_660577115476723_4676831135056140397_n_1080.jpg" alt=""></span></div>
-              <div class="image" data-name="uibbc" data-aos="fade-up" data-aos-duration="1000"><span><img src="assets/images/IMG20230114094410.jpg" alt=""></span></div>
-              <div class="image" data-name="lc"data-aos="fade-up" data-aos-duration="1000"><span><img src="assets/images/loginbg.JPG" alt=""></span></div>
-              <div class="image" data-name="uniku"data-aos="fade-up" data-aos-duration="1000"><span><img src="assets/images/IMG-20230312-WA0031.jpg" alt=""></span></div>
-              <div class="image" data-name="unma" data-aos="fade-up" data-aos-duration="1000"><span><img src="assets/images/unma8.JPG" alt=""></span></div>
-              <div class="image" data-name="unwir"data-aos="fade-up" data-aos-duration="1000"><span><img src="assets/images/6d915b10-35f6-4dd5-958c-17ac439faf06.jpg" alt=""></span></div>
-              <div class="image" data-name="unma"data-aos="fade-up" data-aos-duration="1000"><span><img src="assets/images/unma2.jpg" alt=""></span></div>
-              <div class="image" data-name="unma"data-aos="fade-up" data-aos-duration="1000"><span><img src="assets/images/unma8.JPG" alt=""></span></div>
-              <div class="image" data-name="unwir"data-aos="fade-up" data-aos-duration="1000"><span><img src="assets/images/6d915b10-35f6-4dd5-958c-17ac439faf06.jpg" alt=""></span></div>
-              <div class="image" data-name="lc"><span data-aos="fade-up" data-aos-duration="1000"><img src="assets/images/lc1.JPG" alt=""></span></div>
-              <div class="image" data-name="unma"data-aos="fade-up" data-aos-duration="1000"><span><img src="assets/images/unma2.jpg" alt=""></span></div>
-              <div class="image" data-name="unma"data-aos="fade-up" data-aos-duration="1000"><span><img src="assets/images/unma2.jpg" alt=""></span></div>
+              <div class="image" data-name="lc"><span><img src="assets/images/lc6.JPG" alt=""></span></div>
+              <div class="image" data-name="iain "><span><img src="assets/images/IMG_1965.JPG" alt=""></span></div>
+              <div class="image" data-name="uibbc"><span><img src="assets/images/20150212003631_IMG_1957.JPG" alt=""></span></div>
+              <div class="image" data-name="unma"><span><img src="assets/images/champs.jpg" alt=""></span></div>
+              <div class="image" data-name="lc"><span><img src="assets/images/Snapinsta.app_356031888_660577115476723_4676831135056140397_n_1080.jpg" alt=""></span></div>
+              <div class="image" data-name="uibbc"><span><img src="assets/images/IMG20230114094410.jpg" alt=""></span></div>
+              <div class="image" data-name="lc"><span><img src="assets/images/loginbg.JPG" alt=""></span></div>
+              <div class="image" data-name="uniku"><span><img src="assets/images/IMG-20230312-WA0031.jpg" alt=""></span></div>
+              <div class="image" data-name="unma"><span><img src="assets/images/unma8.JPG" alt=""></span></div>
+              <div class="image" data-name="unwir"><span><img src="assets/images/6d915b10-35f6-4dd5-958c-17ac439faf06.jpg" alt=""></span></div>
+              <div class="image" data-name="unma"><span><img src="assets/images/unma2.jpg" alt=""></span></div>
+              <div class="image" data-name="unma"><span><img src="assets/images/unma8.JPG" alt=""></span></div>
+              <div class="image" data-name="unwir"><span><img src="assets/images/6d915b10-35f6-4dd5-958c-17ac439faf06.jpg" alt=""></span></div>
+              <div class="image" data-name="lc"><span><img src="assets/images/lc1.JPG" alt=""></span></div>
+              <div class="image" data-name="unma"><span><img src="assets/images/unma2.jpg" alt=""></span></div>
+              <div class="image" data-name="unma"><span><img src="assets/images/unma2.jpg" alt=""></span></div>
             </div>
-            <div class="button-center" data-aos="zoom-in">
+            <div class="button-center">
               <a  class="showLess ud-main-btn ud-link-btn " id="showLess" style="display: none;">Lihat lebih sedikit </i></a>
               <a  class="loadMore ud-main-btn ud-link-btn" id="loadMore">Lihat Lebih Banyak</a>
             </div>
           </div>
           <!-- fullscreen img preview box -->
           <div class="preview-box">
-            <div class="details">               <span class="title">Image kategori: <p></p></span>
-              <span class="icon fas fa-times button-close"><i class="lni lni-close"></i></span>
+            <div class="details">
+              <span class="title">Image Category: <p></p></span>
+              
+              <span class="icon fas fa-times">close</span>
+              <span class="prev icon prev-button">&lt;</span>
+              <span class="next icon next-button">&gt;</span>
             </div>
-            <div class="image-box"><img src="" alt="">
-              <span class="prev icon prev-button btn-prev"><i class="lni lni-chevron-left"></i></span>
-              <span class="next icon next-button btn-next"><i class="lni lni-chevron-right"></i></span>
-            </div>
+            <div class="image-box"><img src="" alt=""></div>
           </div>
           <div class="shadow"></div>
         </div>
        </section>
 
    <!-- ====== Footer Start ====== -->
-<footer class="ud-footer wow fadeInUp" data-wow-delay=".15s">
+    <footer class="ud-footer wow fadeInUp" data-wow-delay=".15s">
       <div class="ud-footer-widgets">
         <div class="container">
           <div class="row">
             <div class="col-xl-3 col-lg-4 col-md-6">
               <div class="ud-widget">
                 <a href="index.html" class="ud-footer-logo">
-                  <img src="assets/images/GenBI original.png" alt="logo" />
+                  <img src="assets/images/Logo GenBI Cirebon .png" alt="logo" />
                 </a>
 
                 <p  class="ud-widget-desc">
-                  Generasi Baru Indonesia a.k.a GenBI ialah sebuah komunitas yang terdiri dari beberapa kumpulan mahasiswa dari berbagai universitas pada sebuah wilayah yang terpilih sebagai penerima beasiswa Bank Indonesia.
+                  Generasi Baru Indonesia a.k.a GenBI ialah sebuah komunitas yang terdiri dari beberapa kumpulan mahasiswa dari berIAIN ai universitas pada sebuah wilayah yang terpilih seIAIN ai penerima beasiswa Bank Indonesia.
                 </p>
                 <ul class="ud-widget-socials">
                   <li>
-                    <a href="#" class="facebook">
-                      <i class="lni lni-facebook-filled icon-footer facebook"></i>
+                    <a href="#">
+                      <i><img src="assets/images/facebook (3).png" alt=""></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="instagram">
-                      <i class="lni lni-instagram-filled icon-footer instagram"></i>
+                    <a href="#">
+                      <i ><img src="assets/images/instagram (1).png" alt=""></i>
                     </a>
                   </li>
                   <li>
@@ -139,13 +219,8 @@
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="twitter">
-                      <i class="lni lni-twitter-filled icon-footer"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="javascript:void(0)" class="linkedin">
-                      <i class="lni lni-youtube icon-footer"></i>
+                    <a href="#">
+                      <i> <img src="assets/images/twitter.png" alt=""></i>
                     </a>
                   </li>
                 </ul>
@@ -207,6 +282,7 @@
                   <li>
                     <a
                       href="#"
+                     
                     >
                       <img
                         src="assets/images/bi-b.png"
@@ -214,6 +290,7 @@
                       />
                     </a>
                   </li>
+                 
                 </ul>
               </div>
             </div>
@@ -222,9 +299,26 @@
       </div>
       <div class="ud-footer-bottom">
         <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <ul class="ud-footer-bottom-left">
+                <li>
+                  <a href="javascript:void(0)">Lorem, ipsum dolor.</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)">Lorem, ipsum dolor.</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)">Lorem, ipsum dolor.</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-4">
               <p class="ud-footer-bottom-right">
-                <a href="#" rel="nofollow">© 2023 • GenBI Cirebon 2023</a>
+                <a href="#" rel="nofollow">GenBI Cirebon 2023</a>
               </p>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
@@ -239,10 +333,6 @@
     <script src="assets/js/carousel.js"></script>
     <script src="assets/js/cdnjs.cloudflare.com_ajax_libs_jquery_3.5.1_jquery.min.js"></script>
     <script src="assets/js/cdnjs.cloudflare.com_ajax_libs_magnific-popup.js_1.1.0_jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
     <script>
 
 const filterItem = document.querySelector(".items");
@@ -335,6 +425,7 @@ list.hide();
 if (numInList > numToShow) {
 buttonLoadMore.show();
 }
+
 list.slice(0, numToShow * 3).show(); // Menampilkan 6 kartu pertama
 
 buttonLoadMore.click(function () {
@@ -356,9 +447,6 @@ buttonShowLess.hide();
 });
 
 
-</script>
-<script>
-  AOS.init();
 </script>
   </body>
 </html>

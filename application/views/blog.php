@@ -19,21 +19,98 @@
     <!--====== Favicon Icon ======-->
     <link
       rel="shortcut icon"
-      href="assets/images/logo.png"
+      href="assets/images/favicon.svg"
       type="image/svg"
     />
 
     <!-- ===== All CSS files ===== -->
-    <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>" />
-<link rel="stylesheet" href="<?php echo base_url('assets/css/animate.css'); ?>" />
-<link rel="stylesheet" href="<?php echo base_url('assets/css/lineicons.css'); ?>" />
-<link rel="stylesheet" href="<?php echo base_url('assets/css/ud-styles.css'); ?>" />
-<link rel="stylesheet" href="<?php echo base_url('assets/css/aos.css'); ?>" />
-
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/lineicons.css" />
+    <link rel="stylesheet" href="assets/css/ud-styles.css" />
   </head>
   <body>
     <!-- ====== Header Start ====== -->
-   
+    <header class="ud-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <nav class="navbar navbar-expand-lg">
+              <a class="logo" href="index.html">
+                <img src="assets/images/Logo GenBI Cirebon .png" alt="Logo" />
+              </a>
+              <button class="navbar-toggler">
+                <span class="toggler-icon"> </span>
+                <span class="toggler-icon"> </span>
+                <span class="toggler-icon"> </span>
+              </button>
+
+              <div class="navbar-collapse">
+                <ul id="nav" class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                    <a class="ud-menu-scroll" href="index.html">Beranda</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="ud-submenu-link" href="program.html">Kegiatan</a>
+                  </li>
+                  <li class="nav-item nav-item-has-children">
+                    <a href="javascript:void(0)"> Beasiswa BI </a>
+                    <ul class="ud-submenu">
+                      <li class="ud-submenu-item">
+                        <a href="tentangbi.html" class="ud-submenu-link">
+                        Tentang BI
+                        </a>
+                      </li>
+                      <li class="ud-submenu-item">
+                        <a href="persyaratan.html" class="ud-submenu-link">
+                        Persyaratan Beasiswa
+                        </a>
+                      </li>
+                      <li class="ud-submenu-item">
+                        <a href="beasiswa.html" class="ud-submenu-link">
+                          Beasiswa
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a href="blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="galeri.html">Gallery</a>
+                  </li>
+                  <li class="nav-item nav-item-has-children">
+                    <a href="javascript:void(0)"> Tentang </a>
+                    <ul class="ud-submenu">
+                      <li class="ud-submenu-item">
+                        <a href="about.html" class="ud-submenu-link">
+                        Tentang GenBI
+                        </a>
+                      </li>
+                      <li class="ud-submenu-item">
+                        <a href="pengurus.html" class="ud-submenu-link">
+                          Pengurus GenBI Cirebon
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="navbar-btn d-none d-sm-inline-block">
+                <a href="login.html" class="ud-main-btn ud-login-btn">
+                  Masuk
+                </a>
+                <a class="ud-main-btn ud-white-btn" href="javascript:void(0)">
+                  Daftar
+                </a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
     <!-- ====== Header End ====== -->
 
     <!-- ====== Banner Start ====== -->
@@ -42,7 +119,7 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="ud-banner-bi-content">
-              <h1>blog page</h1>
+              <h1>Event Bank Indonesia</h1>
               <ol class="banner-link">
                 <li class="banner-link-nav">
                   <a class="nav-satu"  href="">Home</a>
@@ -63,13 +140,13 @@
     <section class="ud-blog-grids">
       <div class="container">
         <div class="ud-section-title mx-auto text-center">
-          <span class="tag" data-aos="fade-up" data-aos-duration="1000">
+          <span class="tag">
             Event
           </span>
-          <h2 data-aos="fade-up" data-aos-duration="1000">berita</h2>
+          <h2>Event Bank Indonesia Kpw Cirebon</h2>
         </div>
         <div class="row">
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
+          <div class="col-lg-4 col-md-6">
             <div class="ud-single-blog">
               <div class="ud-blog-image">
                 <a href="blog-details.html">
@@ -84,12 +161,13 @@
                   </a>
                 </h3>
                 <p class="ud-blog-desc">
-                  Green ekonomi ini dapat juga diartikan perekonomian yang rendah atau tidak menghasilkan emisi karbondioksida terhadap  lingkungan , hemat sumber daya alam dan berkeadilan sosial 
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
+          <div class="col-lg-4 col-md-6">
             <div class="ud-single-blog">
               <div class="ud-blog-image">
                 <a href="muri.html">
@@ -104,14 +182,13 @@
                   </a>
                 </h3>
                 <p class="ud-blog-desc">
-                  Bank Indonesia Cirebon memecahkan rekor dunia dalam penyajian docang kuliner tradisional khas Cirebon terbanyak.
-
-                  Artikel ini telah tayang di jabar.inews.id dengan judul " 1.708 Mangkuk Docang Kuliner 
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
+          <div class="col-lg-4 col-md-6">
             <div class="ud-single-blog">
               <div class="ud-blog-image">
                 <a href="cef.html">
@@ -126,12 +203,13 @@
                   </a>
                 </h3>
                 <p class="ud-blog-desc">
-                  Sebagai langkah nyata dalam mendorong hal tersebut dan dalam rangka mendukung Gerakan Nasional Bangga Buatan Indonesia (Gernas BBI) dan Gerakan Bangga Wisata Indonesia (GBWI), Kantor Perwakilan Bank Indonesia (KPW BI) Cirebon kembali menggelar Ciayumajakuning Entrepreneur Festival (CEF) 2023.
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
+          <div class="col-lg-4 col-md-6">
             <div class="ud-single-blog">
               <div class="ud-blog-image">
                 <a href="blog-details.html">
@@ -139,19 +217,20 @@
                 </a>
               </div>
               <div class="ud-blog-content">
-                <span class="ud-blog-date">21 Juli 2023</span>
+                <span class="ud-blog-date">29 Agustus 2023</span>
                 <h3 class="ud-blog-title">
                   <a href="blog-details.html">
                    Pekan Qris Nasional BI Cirebon
                   </a>
                 </h3>
                 <p class="ud-blog-desc">
-                  Pekan Qris Nasional (PQN)  merupakan salah satu event BI Cirebon yang didukung Pemerintah Daerah (Pemda) Cirebon bersama dengan stakeholder lainnya termasuk Kabupaten Kuningan.
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6"data-aos="fade-up" data-aos-duration="1000">
+          <div class="col-lg-4 col-md-6">
             <div class="ud-single-blog">
               <div class="ud-blog-image">
                 <a href="blog-details.html">
@@ -159,19 +238,20 @@
                 </a>
               </div>
               <div class="ud-blog-content">
-                <span class="ud-blog-date">21 Juli 2023</span>
+                <span class="ud-blog-date">29 Agustus 2023</span>
                 <h3 class="ud-blog-title">
                   <a href="blog-details.html">
                  Ciayumajakuning Enterpeneur Festival 2023
                   </a>
                 </h3>
                 <p class="ud-blog-desc">
-                  Kantor Perwakilan Bank Indonesia Cirebon, Jawa Barat, menggelar Ciayumajakuning Entrepreneur Festival ke-8. Ajang itu diharapkan menumbuhkan ekonomi hijau dan digitalisasi bagi pelaku usaha mikro kecil menengah di Jawa Barat bagian timur
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
+          <div class="col-lg-4 col-md-6">
             <div class="ud-single-blog">
               <div class="ud-blog-image">
                 <a href="blog-details.html">
@@ -192,7 +272,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6"data-aos="fade-up" data-aos-duration="1000">
+          <div class="col-lg-4 col-md-6">
             <div class="ud-single-blog">
               <div class="ud-blog-image">
                 <a href="blog-details.html">
@@ -213,7 +293,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6"data-aos="fade-up" data-aos-duration="1000">
+          <div class="col-lg-4 col-md-6">
             <div class="ud-single-blog">
               <div class="ud-blog-image">
                 <a href="blog-details.html">
@@ -234,7 +314,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6"data-aos="fade-up" data-aos-duration="1000">
+          <div class="col-lg-4 col-md-6">
             <div class="ud-single-blog">
               <div class="ud-blog-image">
                 <a href="blog-details.html">
@@ -255,7 +335,7 @@
               </div>
             </div>
           </div>
-          <div class="button-center" data-aos="zoom-in">
+          <div class="button-center">
             <a  class="showLess ud-main-btn ud-link-btn " id="showLess" style="display: none;">Lihat lebih sedikit </i></a>
             <a  class="loadMore ud-main-btn ud-link-btn" id="loadMore">Lihat Lebih Banyak</a>
 
@@ -273,7 +353,7 @@
             <div class="col-xl-3 col-lg-4 col-md-6">
               <div class="ud-widget">
                 <a href="index.html" class="ud-footer-logo">
-                  <img src="assets/images/GenBI original.png" alt="logo" />
+                  <img src="assets/images/Logo GenBI Cirebon .png" alt="logo" />
                 </a>
 
                 <p  class="ud-widget-desc">
@@ -281,13 +361,13 @@
                 </p>
                 <ul class="ud-widget-socials">
                   <li>
-                    <a href="#" class="facebook">
-                      <i class="lni lni-facebook-filled icon-footer facebook"></i>
+                    <a href="#">
+                      <i><img src="assets/images/facebook (3).png" alt=""></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="instagram">
-                      <i class="lni lni-instagram-filled icon-footer instagram"></i>
+                    <a href="#">
+                      <i ><img src="assets/images/instagram (1).png" alt=""></i>
                     </a>
                   </li>
                   <li>
@@ -296,13 +376,8 @@
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="twitter">
-                      <i class="lni lni-twitter-filled icon-footer"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="javascript:void(0)" class="linkedin">
-                      <i class="lni lni-youtube icon-footer"></i>
+                    <a href="#">
+                      <i> <img src="assets/images/twitter.png" alt=""></i>
                     </a>
                   </li>
                 </ul>
@@ -381,9 +456,26 @@
       </div>
       <div class="ud-footer-bottom">
         <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <ul class="ud-footer-bottom-left">
+                <li>
+                  <a href="javascript:void(0)">Lorem, ipsum dolor.</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)">Lorem, ipsum dolor.</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)">Lorem, ipsum dolor.</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-4">
               <p class="ud-footer-bottom-right">
-                <a href="#" rel="nofollow">© 2023 • GenBI Cirebon 2023</a>
+                <a href="#" rel="nofollow">GenBI Cirebon 2023</a>
               </p>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
@@ -395,15 +487,10 @@
     <!-- ====== Back To Top End ====== -->
 
     <!-- ====== All Javascript Files ====== -->
-    <script src="<?php echo base_url('assets/js/bootstrap.bundle.min.js'); ?>"></script>
-<script src="<?php echo base_url('assets/js/wow.min.js'); ?>"></script>
-<script src="<?php echo base_url('assets/js/main.js'); ?>"></script>
-<script src="<?php echo base_url('assets/js/aos.js'); ?>"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <script>
-      AOS.init();
-    </script>
     <script>
       $(document).ready(function () {
   var list = $(".ud-single-blog");

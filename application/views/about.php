@@ -11,17 +11,15 @@
     <!--====== Favicon Icon ======-->
     <link
       rel="shortcut icon"
-      href="assets/images/logo.png"
+      href="assets/images/favicon.svg"
       type="image/svg"
     />
-    <!-- ===== All CSS files ===== -->
-    <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>" />
-<link rel="stylesheet" href="<?php echo base_url('assets/css/animate.css'); ?>" />
-<link rel="stylesheet" href="<?php echo base_url('assets/css/lineicons.css'); ?>" />
-<link rel="stylesheet" href="<?php echo base_url('assets/css/ud-styles.css'); ?>" />
-<link rel="stylesheet" href="<?php echo base_url('assets/css/aos.css'); ?>" />
 
-    
+    <!-- ===== All CSS files ===== -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/lineicons.css" />
+    <link rel="stylesheet" href="assets/css/ud-styles.css" />
   </head>
   <body>
     <!-- ====== Header Start ====== -->
@@ -31,7 +29,7 @@
           <div class="col-lg-12">
             <nav class="navbar navbar-expand-lg">
               <a class="logo" href="index.html">
-                <img src="assets/images/GenBI white (1).png" alt="Logo" />
+                <img src="assets/images/Logo GenBI Cirebon .png" alt="Logo" />
               </a>
               <button class="navbar-toggler">
                 <span class="toggler-icon"> </span>
@@ -136,48 +134,45 @@
         <div class="bi-tentang-wrapper wow fadeInUp" data-wow-delay=".2s">
           <div class="bi-tentang-content-wrapper">
             <div class="bi-tentang-content">
-              <span class="tag" data-aos="fade-right" data-aos-duration="1000">About Us</span>
-              <h2 data-aos="fade-right" data-aos-duration="1000">Generasi Baru Indonesia "GenBI"</h2>
-              <p data-aos="fade-right" data-aos-duration="1000">
+              <span class="tag">About Us</span>
+              <h2>Generasi Baru Indonesia "GenBI"</h2>
+              <p>
                 GenBI adalah salah satu bentuk nyata dari Program Sosial Bank Indonesia (PSBI) dalam meningkatkan kualitas mahasiswa sebagai generasi penerus bangsa, yang dibimbing untuk berbagi energi untuk negeri melalui berbagai kegiatan yang dilibatkan masyarakat umum secara langsung
               </p>
 
-              <p data-aos="fade-right" data-aos-duration="1000">
+              <p>
                 Generasi Baru Indonesia, atau yang sering dikenal dengan nama GenBI ialah sebuah komunitas yang terdiri dari mahasiswa-mahasiswa terpilih yang berasal dari beragam latar disiplin ilmu dan keahlian, yang diyakini akan menjadi energi baru yang mampu memberikan kontribusi bagi negara dari berbagai universitas pada sebuah wilayah terpilih sebagai penerima beasiswa. GenBI ini berada langsung dibawah pimpinan oleh pihak Bank Indonesia sendiri
               </p>
             </div>
           </div>
-          <div class="bi-tentang-image"data-aos="fade-left" data-aos-duration="1000">
-            <img src="<?php echo base_url('assets/images/logo.png'); ?>" alt="about-image" />
+          <div class="bi-tentang-image">
+            <img src="assets/images/logo.png" alt="about-image" />
           </div>
         </div>
       </div>
     </section>
 
-
-
-
-    
-
     <section class="visi-misi">
       <div class="container">
-        <div class="ud-section-title mx-auto text-center" data-aos="fade-up" data-aos-duration="1000">
-          <span class="tag">Visi & Misi</span>
+        <div class="ud-section-title mx-auto text-center">
+          
+          <span>Visi & Misi</span>
         </div>
         <div class="vimi-container">
           <div class="visi-section">
-            <h2 data-aos="fade-up-right" data-aos-duration="1000">Visi</h2>
-            <p data-aos="fade-up-right" data-aos-duration="1000">"Menjadi agen perubahan dan penggerak utama dalam pembentukan generasi baru Indonesia yang berkualitas, berintegritas, dan bertanggung jawab, mampu memberikan kontribusi positif bagi kemajuan bangsa dan negara."</p>
+            <h2>Visi</h2>
+            <p>"Menjadi agen perubahan dan penggerak utama dalam pembentukan generasi baru Indonesia yang berkualitas, berintegritas, dan bertanggung jawab, mampu memberikan kontribusi positif bagi kemajuan bangsa dan negara."</p>
           </div>
           <div class="misi-section">
-            <h2 data-aos="fade-up-left" data-aos-duration="1000">Misi</h2>
-            <ol type="1" data-aos="fade-up-left" data-aos-duration="1000">
+            <h2>Misi</h2>
+            <ol type="1">
               <li>Mengagas berbagai kegiatan pemberdayaan masyarakat untuk Indonesia yang lebih baik (Ini)</li>
               <li>Menjadi garda terdepan dalam melakukan aksi nyata untuk pembangunan bangsa (ACT)</li>
               <li>Peduli dan berkontribusi untuk pemberdayaan masyarakat (SHARE)</li>
               <li>Berbagi inspirasi dan motivasi untuk menjadi energi bagi negeri (INSPIRE)</li>
             </ol>
           </div>
+          
         </div>
       </div>
     </section>
@@ -186,8 +181,8 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <div class="ud-section-title mx-auto text-center" data-aos="fade-up" data-aos-duration="1000">
-              <span class="tag">tujuan</span>
+            <div class="ud-section-title mx-auto text-center">
+              <span>tujuan</span>
               <h2>Tujuan GenBI</h2>
             </div>
           </div>
@@ -197,9 +192,9 @@
           <div class="col-lg-4 col-md-6 col-sm-10">
             <div
               class="ud-single-tujuan first-item wow fadeInUp"
-              data-wow-delay=".15s" data-aos="fade-up" data-aos-duration="1000"
+              data-wow-delay=".15s"
               >
-              <span class="ud-popular-tag"><i class="lni lni-users icon-tujuan"></i></span>
+              <span class="ud-popular-tag"><img src="assets/images/group.png" alt=""></i></span>
               <div class="ud-tujuan-header">
                 <h3>Front Liner</h3>
               </div>
@@ -213,9 +208,9 @@
           <div class="col-lg-4 col-md-6 col-sm-10">
             <div
               class="ud-single-tujuan first-item wow fadeInUp"
-              data-wow-delay=".1s" data-aos="fade-up" data-aos-duration="1000"
+              data-wow-delay=".1s"
             >
-              <span class="ud-popular-tag"><i class="lni lni-consulting"></i></span>
+              <span class="ud-popular-tag"><img src="assets/images/change.png" alt=""></span>
               <div class="ud-tujuan-header">
                 <h3>Agent Of Change</h3>
               </div>
@@ -227,9 +222,9 @@
           <div class="col-lg-4 col-md-6 col-sm-10">
             <div
               class="ud-single-tujuan first-item wow fadeInUp"
-              data-wow-delay=".15s" data-aos="fade-up" data-aos-duration="1000"
+              data-wow-delay=".15s"
             >
-            <span class="ud-popular-tag"><i class="lni lni-network"></i></span>
+            <span class="ud-popular-tag"><img src="assets/images/leader (1).png" alt=""></span>
               <div 
               class="ud-tujuan-header">
                 <h3>Future Leaders</h3>
@@ -249,14 +244,14 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <div class="ud-section-title" data-aos="fade-up" data-aos-duration="1000">
-              <span class="tag">Divisi</span>
+            <div class="ud-section-title">
+              <span>Divisi</span>
               <h2>Divisi GenBI Cirebon</h2>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-xl-3 col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
+          <div class="col-xl-3 col-lg-3 col-sm-6">
             <div class="ud-single-feature wow fadeInUp" data-wow-delay=".1s">
               <div class="feature-img">
                 <i class="lni lni-graduation"></i>
@@ -266,10 +261,10 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-3 col-lg-3 col-sm-6"data-aos="fade-up" data-aos-duration="1000">
+          <div class="col-xl-3 col-lg-3 col-sm-6">
             <div class="ud-single-feature wow fadeInUp" data-wow-delay=".15s">
               <div class="feature-img">
-                <i class="lni lni-first-aid"></i>
+                <i class="lni lni-ambulance"></i>
               </div>
               <div class="ud-feature-content">
                 <h3 class="ud-feature-title">Kesehatan</h3>
@@ -279,20 +274,20 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-3 col-lg-3 col-sm-6"data-aos="fade-up" data-aos-duration="1000">
+          <div class="col-xl-3 col-lg-3 col-sm-6">
             <div class="ud-single-feature wow fadeInUp" data-wow-delay=".2s">
               <div class="feature-img">
-                <i class="lni lni-coin"></i>
+              <i class="lni lni-money-location"></i>
               </div>
               <div class="ud-feature-content">
                 <h3 class="ud-feature-title">Kewirausahaan</h3>
               </div>
             </div>
           </div>
-          <div class="col-xl-3 col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
+          <div class="col-xl-3 col-lg-3 col-sm-6">
             <div class="ud-single-feature wow fadeInUp" data-wow-delay=".25s">
               <div class="feature-img">
-                <i class="lni lni-grow"></i>
+               <i class="lni lni-leaf"></i>
               </div>
               <div class="ud-feature-content">
                 <h3 class="ud-feature-title">Linkungan Hidup</h3>
@@ -313,8 +308,7 @@
             <div class="col-xl-3 col-lg-4 col-md-6">
               <div class="ud-widget">
                 <a href="index.html" class="ud-footer-logo">
-                <img src="<?php echo base_url('assets/images/GenBI original.png'); ?>" alt="logo" />
-
+                  <img src="assets/images/Logo GenBI Cirebon .png" alt="logo" />
                 </a>
 
                 <p  class="ud-widget-desc">
@@ -322,13 +316,13 @@
                 </p>
                 <ul class="ud-widget-socials">
                   <li>
-                    <a href="#" class="facebook">
-                      <i class="lni lni-facebook-filled icon-footer facebook"></i>
+                    <a href="#">
+                      <i><img src="assets/images/facebook (3).png" alt=""></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="instagram">
-                      <i class="lni lni-instagram-filled icon-footer instagram"></i>
+                    <a href="#">
+                      <i ><img src="assets/images/instagram (1).png" alt=""></i>
                     </a>
                   </li>
                   <li>
@@ -337,13 +331,8 @@
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="twitter">
-                      <i class="lni lni-twitter-filled icon-footer"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="javascript:void(0)" class="linkedin">
-                      <i class="lni lni-youtube icon-footer"></i>
+                    <a href="#">
+                      <i> <img src="assets/images/twitter.png" alt=""></i>
                     </a>
                   </li>
                 </ul>
@@ -407,8 +396,10 @@
                       href="#"
                      
                     >
-                    <img src="<?php echo base_url('assets/images/bi-b.png'); ?>" alt="ayroui" />
-
+                      <img
+                        src="assets/images/bi-b.png"
+                        alt="ayroui"
+                      />
                     </a>
                   </li>
                  
@@ -420,9 +411,26 @@
       </div>
       <div class="ud-footer-bottom">
         <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <ul class="ud-footer-bottom-left">
+                <li>
+                  <a href="javascript:void(0)">Lorem, ipsum dolor.</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)">Lorem, ipsum dolor.</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)">Lorem, ipsum dolor.</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-4">
               <p class="ud-footer-bottom-right">
-                <a href="#" rel="nofollow">© 2023 • GenBI Cirebon 2023</a>
+                <a href="#" rel="nofollow">GenBI Cirebon 2023</a>
               </p>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
@@ -433,12 +441,9 @@
     </a>
     <!-- ====== Back To Top End ====== -->
 
-    <script src="<?php echo base_url('assets/js/bootstrap.bundle.min.js'); ?>"></script>
-    <script src="<?php echo base_url('assets/js/wow.min.js'); ?>"></script>
-    <script src="<?php echo base_url('assets/js/main.js'); ?>"></script>
-    <script src="<?php echo base_url('assets/js/aos.js'); ?>"></script>
-    <script>
-      AOS.init();
-    </script>
+    <!-- ====== All Javascript Files ====== -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
