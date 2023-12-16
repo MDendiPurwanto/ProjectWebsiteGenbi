@@ -24,102 +24,38 @@
     />
 
     <!-- ===== All CSS files ===== -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <link rel="stylesheet" href="assets/css/lineicons.css" />
-    <link rel="stylesheet" href="assets/css/ud-styles.css" />
+    <link rel="stylesheet" href="<?php echo base_url ('assets/css/bootstrap.min.css');?>" />
+    <link rel="stylesheet" href="<?php echo base_url ('assets/css/animate.css');?>" />
+    <link rel="stylesheet" href="<?php echo base_url ('assets/css/lineiconse.css');?>" />
+    <link rel="stylesheet" href="<?php echo base_url ('assets/css/ud-styles.css');?>" />
+    <link rel="stylesheet" href="<?php echo base_url ('assets/css/aos.css');?>" />
   </head>
   <body>
     <!-- ====== Header Start ====== -->
-    <header class="ud-header">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <nav class="navbar navbar-expand-lg">
-              <a class="logo" href="index.html">
-                <img src="assets/images/Logo GenBI Cirebon .png" alt="Logo" />
-              </a>
-              <button class="navbar-toggler">
-                <span class="toggler-icon"> </span>
-                <span class="toggler-icon"> </span>
-                <span class="toggler-icon"> </span>
-              </button>
-
-              <div class="navbar-collapse">
-                <ul id="nav" class="navbar-nav mx-auto">
-                  <li class="nav-item">
-                    <a class="ud-menu-scroll" href="index.html">Beranda</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#">Kegiatan</a>
-                  </li>
-                   <li class="nav-item nav-item-has-children">
-                    <a href="javascript:void(0)"> Beasiswa BI </a>
-                    <ul class="ud-submenu">
-                      <li class="ud-submenu-item">
-                        <a href="Tentang BI" class="ud-submenu-link">
-                        Tentang BI
-                        </a>
-                      </li>
-                      <li class="ud-submenu-item">
-                        <a href="#" class="ud-submenu-link">
-                          Beasiswa
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a href="blog.html">Blog</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#contact">Contact</a>
-                  </li>
-                  <li class="nav-item nav-item-has-children">
-                    <a href="javascript:void(0)"> About </a>
-                    <ul class="ud-submenu">
-                      <li class="ud-submenu-item">
-                        <a href="about.html" class="ud-submenu-link">
-                        Tentang GenBI
-                        </a>
-                      </li>
-                      <li class="ud-submenu-item">
-                        <a href="pengurus.html" class="ud-submenu-link">
-                          Pengurus GenBI Cirebon
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="navbar-btn d-none d-sm-inline-block">
-                <a href="login.html" class="ud-main-btn ud-login-btn">
-                  Masuk
-                </a>
-                <a class="ud-main-btn ud-white-btn" href="javascript:void(0)">
-                  Daftar
-                </a>
-              </div>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </header>
+  
     <!-- ====== Header End ====== -->
 
     <!-- ====== Banner Start ====== -->
-    <section class="ud-page-banner">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="ud-banner-content">
-              <h1>Contact Page</h1>
-            </div>
+    <section class="ud-page-banner-about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="ud-banner-genbi-content">
+            <h1>Tentang GenBI</h1>
+            <ol class="banner-link">
+              <li class="banner-link-nav">
+                <a class="nav-satu" href="index.html">Home</a>
+              </li>
+
+              <li class="banner-link-nav">
+                <a class="active" href="about.html">kontak</a>
+              </li>
+            </ol>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
     <!-- ====== Banner End ====== -->
 
     <!-- ====== Contact Start ====== -->
@@ -129,29 +65,30 @@
           <div class="col-xl-8 col-lg-7">
             <div class="ud-contact-content-wrapper">
               <div class="ud-contact-title">
-                <span>CONTACT US</span>
-                <h2>
+                <span data-aos="fade-right" data-aos-duration="1000">CONTACT US</span>
+                <h2 data-aos="fade-left" data-aos-duration="1000">
                   Let’s talk about <br />
                   Love to hear from you!
                 </h2>
               </div>
               <div class="ud-contact-info-wrapper">
-                <div class="ud-single-info">
+                <div class="ud-single-info" data-aos="fade-up" data-aos-duration="1000">
                   <div class="ud-info-icon">
                     <i class="lni lni-map-marker"></i>
                   </div>
-                  <div class="ud-info-meta">
-                    <h5>Our Location</h5>
-                    <p>401 Broadway, 24th Floor, Orchard Cloud View, London</p>
+                  <div class="ud-info-meta" >
+                    <h5>Alamat</h5>
+                    <p>
+                    Jl. Yos Sudarso No.5-7, Lemahwungkuk, Kec. Lemahwungkuk, Kota Cirebon, Jawa Barat 45111</p>
                   </div>
                 </div>
-                <div class="ud-single-info">
+                <div class="ud-single-info" data-aos="fade-up" data-aos-duration="1000">
                   <div class="ud-info-icon">
                     <i class="lni lni-envelope"></i>
                   </div>
-                  <div class="ud-info-meta">
-                    <h5>How Can We Help?</h5>
-                    <p>info@yourdomain.com</p>
+                  <div class="ud-info-meta" >
+                    <h5>Messege</h5>
+                    <p>genbicirebon@gmail.com</p>
                     <p>contact@yourdomain.com</p>
                   </div>
                 </div>
@@ -161,45 +98,45 @@
           <div class="col-xl-4 col-lg-5">
             <div
               class="ud-contact-form-wrapper wow fadeInUp"
-              data-wow-delay=".2s"
+              data-wow-delay=".2s" data-aos="fade-up" data-aos-duration="1000"
             >
-              <h3 class="ud-contact-form-title">Send us a Message</h3>
+              <h3 class="ud-contact-form-title" data-aos="fade-left" data-aos-duration="1000">Kirimkan Pesan</h3>
               <form class="ud-contact-form">
                 <div class="ud-form-group">
-                  <label for="fullName">Full Name*</label>
+                  <label for="fullName"data-aos="fade-right" data-aos-duration="1000">Nama Lengkap *</label>
                   <input
                     type="text"
                     name="fullName"
-                    placeholder="Adam Gelius"
+                    placeholder="Adam Gelius" data-aos="fade-left" data-aos-duration="1000"
                   />
                 </div>
                 <div class="ud-form-group">
-                  <label for="email">Email*</label>
+                  <label for="email" data-aos="fade-right" data-aos-duration="1000">Email*</label>
                   <input
                     type="email"
                     name="email"
-                    placeholder="example@yourmail.com"
+                    placeholder="example@yourmail.com" data-aos="fade-left" data-aos-duration="1000"
                   />
                 </div>
                 <div class="ud-form-group">
-                  <label for="phone">Phone*</label>
+                  <label for="phone"data-aos="fade-right" data-aos-duration="1000">no.hp*</label>
                   <input
                     type="text"
                     name="phone"
-                    placeholder="+885 1254 5211 552"
+                    placeholder="+885 1254 5211 552" data-aos="fade-left" data-aos-duration="1000"
                   />
                 </div>
                 <div class="ud-form-group">
-                  <label for="message">Message*</label>
+                  <label for="message"data-aos="fade-right" data-aos-duration="1000">Pesan*</label>
                   <textarea
                     name="message"
                     rows="1"
-                    placeholder="type your message here"
+                    placeholder="type your message here" data-aos="fade-left" data-aos-duration="1000"
                   ></textarea>
                 </div>
                 <div class="ud-form-group mb-0">
                   <button type="submit" class="ud-main-btn">
-                    Send Message
+                    Kirim pesan
                   </button>
                 </div>
               </form>
@@ -211,139 +148,6 @@
     <!-- ====== Contact End ====== -->
 
     <!-- ====== Footer Start ====== -->
-    <footer class="ud-footer wow fadeInUp" data-wow-delay=".15s">
-      <div class="ud-footer-widgets">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-3 col-lg-4 col-md-6">
-              <div class="ud-widget">
-                <a href="index.html" class="ud-footer-logo">
-                  <img src="assets/images/Logo GenBI Cirebon .png" alt="logo" />
-                </a>
-
-                <p  class="ud-widget-desc">
-                  Generasi Baru Indonesia a.k.a GenBI ialah sebuah komunitas yang terdiri dari beberapa kumpulan mahasiswa dari berbagai universitas pada sebuah wilayah yang terpilih sebagai penerima beasiswa Bank Indonesia.
-                </p>
-                <ul class="ud-widget-socials">
-                  <li>
-                    <a href="#">
-                      <i><img src="assets/images/facebook (3).png" alt=""></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i ><img src="assets/images/instagram (1).png" alt=""></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i> <img src="assets/images/twitter.png" alt=""></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
-              <div class="ud-widget">
-                <h5 class="ud-widget-title">Alamat</h5>
-                <ul class="ud-widget-links">
-                  <li>
-                    <a href="javascript:void(0)">Jl. Yos Sudarso No.5-7, Lemahwungkuk, Kec. Lemahwungkuk, Kota Cirebon, Jawa Barat 45111</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
-              <div class="ud-widget">
-                <h5 class="ud-widget-title">Link</h5>
-                <ul class="ud-widget-links">
-                  <li>
-                    <a href="javascript:void(0)">kegiatan</a>
-                  </li>
-                  <li>
-                    <a href="javascript:void(0)">beasiswa</a>
-                  </li>
-                  <li>
-                    <a href="javascript:void(0)">Blog</a>
-                  </li>
-                  <li>
-                    <a href="javascript:void(0)">Tentang</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
-              <div class="ud-widget">
-                <h5 class="ud-widget-title">Kontak</h5>
-                <ul class="ud-widget-links">
-                  <li>
-                    <a
-                      href="#"
-                      >00000000
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      >@gmail.com
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-6 col-md-8 col-sm-10">
-              <div class="ud-widget">
-                <h5 class="ud-widget-title">Suport</h5>
-                <ul class="ud-widget-brands">
-                  <li>
-                    <a
-                      href="#"
-                     
-                    >
-                      <img
-                        src="assets/images/bi-b.png"
-                        alt="ayroui"
-                      />
-                    </a>
-                  </li>
-                 
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="ud-footer-bottom">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8">
-              <ul class="ud-footer-bottom-left">
-                <li>
-                  <a href="javascript:void(0)">Lorem, ipsum dolor.</a>
-                </li>
-                <li>
-                  <a href="javascript:void(0)">Lorem, ipsum dolor.</a>
-                </li>
-                <li>
-                  <a href="javascript:void(0)">Lorem, ipsum dolor.</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-md-4">
-              <p class="ud-footer-bottom-right">
-                <a href="#" rel="nofollow">GenBI Cirebon 2023</a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
 
     <!-- ====== Back To Top Start ====== -->
     <a href="javascript:void(0)" class="back-to-top">
@@ -352,8 +156,10 @@
     <!-- ====== Back To Top End ====== -->
 
     <!-- ====== All Javascript Files ====== -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="<?php echo base_url ('assets/js/bootstrap.bundle.min.js');?>"></script>
+    <script src="<?php echo base_url ('assets/js/wow.min..js');?>"></script>
+    <script src="<?php echo base_url ('assets/js/main.js');?>"></script>
+    <script src="<?php echo base_url ('assets/js/aos.js');?>"></script>
+    <script>AOS.init();</script>
   </body>
 </html>

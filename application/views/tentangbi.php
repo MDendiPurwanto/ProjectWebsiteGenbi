@@ -145,6 +145,7 @@
 <script src="<?php echo base_url('assets/js/wow.min.js'); ?>"></script>
 <script src="<?php echo base_url('assets/js/main.js'); ?>"></script>
 <script src="<?php echo base_url('assets/js/aos.js'); ?>"></script>
+<script src="<?php echo base_url('assets/js/change.js'); ?>"></script>
 
     <script>
       AOS.init();

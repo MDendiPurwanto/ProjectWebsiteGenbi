@@ -67,10 +67,10 @@
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a href="<?php echo base_url('Home/blog'); ?>">Blog</a>
+                    <a href="<?php echo base_url('Home/blog'); ?>">Berita</a>
                   </li>
                   <li class="nav-item">
-                    <a href="galeri.html">Gallery</a>
+                    <a href="<?php echo base_url ('Home/galeri'); ?> ">Gallery</a>
                   </li>
                   <li class="nav-item nav-item-has-children">
                     <a href="javascript:void(0)"> Tentang </a>
@@ -108,5 +108,7 @@
   <script src="https://cdn.jsdelivr.net/npm/typed.js"></script>
   <script src="<?php echo base_url('assets/js/main.js'); ?>"></script>
   <script src="<?php echo base_url('assets/js/aos.js'); ?>"></script>
+  <script src="<?php echo base_url('assets/js/change.js'); ?>"></script>
+  <script src="<?php echo base_url('assets/js/navbar.js'); ?>"></script>
   </body>
 </html>

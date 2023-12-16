@@ -22,7 +22,6 @@
       logo.src = baseURL + "assets/images/GenBI white (1).png"; // Ubah logo saat tidak sticky
   }
 
-
     // show or hide the back-top-top button
     const backToTop = document.querySelector(".back-to-top");
     if (

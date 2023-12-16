@@ -11,7 +11,7 @@
     <!--====== Favicon Icon ======-->
     <link
       rel="shortcut icon"
-      href="assets/images/logo.png"
+      href="<?php echo base_url ('assets/images/logo.png'); ?>"
       type="image/svg"
     />
     <!-- ===== All CSS files ===== -->
