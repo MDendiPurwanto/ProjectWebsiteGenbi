@@ -33,11 +33,11 @@
             <h1>Beasiswa Bank Indonesia</h1>
             <ol class="banner-link">
               <li class="banner-link-nav">
-                <a class="nav-satu" href="">Home</a>
+                <a class="nav-satu" href="<?php echo base_url(''); ?>">Home</a>
               </li>
 
               <li class="banner-link-nav">
-                <a class="active" href="">beasiswa</a>
+                <a class="active" href="<?php echo base_url ('Home/beasiswa');?>">beasiswa</a>
               </li>
             </ol>
           </div>
@@ -69,7 +69,7 @@
           <div class=" card-beasiswa"data-aos="fade-up" data-aos-duration="1000">
             <div class="card-image-beasiswa">
               <a href="beasiswa-detail.html">
-                <img src="<?php echo base_url('assets/images/beasiswa.jpg'); ?>"  class="img-beasiswa">
+                <img src="<?php echo base_url('assets/images/TAHAP II.jpg'); ?>"  class="img-beasiswa">
               </a>
             </div>
             <div class="bi-body">

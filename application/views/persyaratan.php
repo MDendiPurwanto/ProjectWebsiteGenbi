@@ -8,11 +8,7 @@
     <title>GenBI Cirebon</title>
 
     <!--====== Favicon Icon ======-->
-    <link
-      rel="shortcut icon"
-      href="assets/images/logo.png"
-      type="image/svg"
-    />
+    <link rel="shortcut icon" href="<?php echo base_url ('assets/images/logo.png'); ?>" type="image/svg" />
     <!-- ===== All CSS files ===== -->
     <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>" />
 <link rel="stylesheet" href="<?php echo base_url('assets/css/animate.css'); ?>" />
@@ -35,7 +31,7 @@
               <h1>Persyaratan Beasiswa BI</h1>
               <ol class="banner-link">
                 <li class="banner-link-nav">
-                  <a class="nav-satu"  href="">Home</a>
+                <a class="nav-satu" href="<?php echo base_url(''); ?>">Home</a>
                 </li>
     
                 <li class="banner-link-nav">
@@ -111,7 +107,7 @@
         <div class="prodi-content">
           <ul class="" data-aos="fade-up-right" data-aos-duration="1000">
             <li>Manajemen</li>
-                <li>Akuntansi  <i class="lni lni-graduation"></i></li>
+                <li>Akuntansi </li>
                 <li>Ekonomi Syari’ah</li>
                 <li>Pendidikan Matematika</li>
                 <li>Agribisnis</li>
@@ -171,10 +167,11 @@
     <!-- ====== Back To Top End ====== -->
 
     <!-- ====== All Javascript Files ====== -->
-    <script src="<?php echo base_url('assets/js/bootstrap.bundle.min.js'); ?>"></script>
+<script src="<?php echo base_url('assets/js/bootstrap.bundle.min.js'); ?>"></script>
 <script src="<?php echo base_url('assets/js/wow.min.js'); ?>"></script>
 <script src="<?php echo base_url('assets/js/main.js'); ?>"></script>
 <script src="<?php echo base_url('assets/js/aos.js'); ?>"></script>
+<script src="<?php echo base_url('assets/js/typed.js'); ?>"></script>
 
     <script>
       AOS.init();

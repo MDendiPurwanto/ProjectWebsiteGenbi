@@ -348,6 +348,10 @@ p {
   position: relative;
 }
 
+ .nav-item  .active {
+  
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .navbar-nav .nav-item > a {
     display: block;
@@ -452,6 +456,7 @@ p {
   top: 50%;
   margin-top: -2px;
 }
+
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .navbar-nav .nav-item.nav-item-has-children > a::after {
@@ -1518,6 +1523,7 @@ p {
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .ud-contact-info-wrapper {
     margin-bottom: 50px;
+    
   }
 }
 
@@ -1529,7 +1535,8 @@ p {
 
 .ud-contact-info-wrapper .ud-single-info {
   flex: 1;
-  max-width: 33.33%;
+  max-width: 43.33%;
+  
 }
 
 .ud-contact-info-wrapper .ud-info-icon {
@@ -1552,7 +1559,7 @@ p {
 
 .ud-contact-form-wrapper {
   -webkit-box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.05);
-          box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.05);
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
   background: var(--white);
   padding: 60px;
@@ -1561,6 +1568,13 @@ p {
 @media (max-width: 767px) {
   .ud-contact-form-wrapper {
     padding: 40px 30px;
+  }
+  .ud-contact-info-wrapper .ud-single-info {
+    flex: 2;
+    max-width: 80.33%;
+  }
+  .ud-contact-form-wrapper {
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
   }
 }
 
@@ -1790,7 +1804,7 @@ p {
 .ud-widget .ud-widget-brands img {
   border: 2px solid white;
   display: block;
-  max-width: 60px;
+  width: 260px;
   margin-bottom: 20px;
   margin-right: 20px;
   background-color: white;
@@ -2061,14 +2075,14 @@ p {
 
 .banner-link .nav-satu {
   font-size: 20px;
-  color: rgb(184, 177, 177);
+  color:white;
 }
 
 .banner-link .active{
   font-size: 20px;
   text-decoration: underline;
   font-weight: 600;
-  color:white;
+  color: rgb(184, 177, 177);
 }
 
 @media (max-width: 768px) {
@@ -3526,7 +3540,7 @@ prodi */
 /* Tampilan untuk layar berukuran lebih kecil */
 @media screen and (max-width: 768px) {
   .timeline {
-    height: 80vh;
+    height: 75vh;
   }
 
   .timeline h2 {
@@ -3540,11 +3554,7 @@ prodi */
   }
 
   .timeline-container::before {
-    width: 2px; /* Mengubah lebar garis menjadi vertikal */
-    height: 480px; /* Mengisi tinggi container secara penuh */
-    top: 0;
-    left: 50%; /* Menempatkan garis tepat di tengah */
-    transform: translateX(-50%); /* Memindahkan garis ke tengah secara horizontal */
+    display: none;
   }
 
   .timeline-container {
@@ -4653,8 +4663,8 @@ letter-spacing: .05rem;
 }
 
 .testimonial-image img {
-  max-width: 100%;
-  max-height: 50%; 
+  max-width: 400px;
+  max-height: auto; 
 }
 
 

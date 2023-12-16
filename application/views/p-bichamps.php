@@ -16,10 +16,10 @@
     />
     <!-- ===== All CSS files ===== -->
     <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>" />
-<link rel="stylesheet" href="<?php echo base_url('assets/css/animate.css'); ?>" />
-<link rel="stylesheet" href="<?php echo base_url('assets/css/lineicons.css'); ?>" />
-<link rel="stylesheet" href="<?php echo base_url('assets/css/ud-styles.css'); ?>" />
-<link rel="stylesheet" href="<?php echo base_url('assets/css/aos.css'); ?>" />
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/animate.css'); ?>" />
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/lineicons.css'); ?>" />
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/ud-styles.css'); ?>" />
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/aos.css'); ?>" />
 
   </head>
   <body>

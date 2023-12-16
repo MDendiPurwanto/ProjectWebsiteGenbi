@@ -9,11 +9,7 @@
     <title>GenBI Cirebon</title>
 
     <!--====== Favicon Icon ======-->
-    <link
-      rel="shortcut icon"
-      href="assets/images/favicon.svg"
-      type="image/svg"
-    />
+    <link rel="shortcut icon" href="<?php echo base_url ('assets/images/logo.png'); ?>" type="image/svg" />
 
     <!-- ===== All CSS files ===== -->
     <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>" />
@@ -35,7 +31,7 @@
               <h1>Daftar Gallery GenBI Cirebon</h1>
               <ol class="banner-link">
                 <li class="banner-link-nav">
-                  <a class="nav-satu"  href="">Home</a>
+                <a class="nav-satu" href="<?php echo base_url(''); ?>">Home</a>
                 </li>
     
                 <li class="banner-link-nav">
@@ -121,6 +117,9 @@
 <script src="<?php echo base_url('assets/js/wow.min.js'); ?>"></script>
 <script src="<?php echo base_url('assets/js/main.js'); ?>"></script>
 <script src="<?php echo base_url('assets/js/carousel.js'); ?>"></script>
+<script src="<?php echo base_url('assets/js/navbar.js'); ?>"></script>
+<script src="<?php echo base_url('assets/js/aos.js'); ?>"></script>
+<script>AOS.init();</script>
 <script src="<?php echo base_url('assets/js/cdnjs.cloudflare.com_ajax_libs_jquery_3.5.1_jquery.min.js'); ?>"></script>
 <script src="<?php echo base_url('assets/js/cdnjs.cloudflare.com_ajax_libs_magnific-popup.js_1.1.0_jquery.magnific-popup.min.js'); ?>"></script>
 

@@ -9,11 +9,7 @@
     <title>GenBI Cirebon</title>
 
     <!--====== Favicon Icon ======-->
-    <link
-      rel="shortcut icon"
-      href="assets/images/favicon.svg"
-      type="image/svg"
-    />
+    <link rel="shortcut icon" href="<?php echo base_url ('assets/images/logo.png'); ?>" type="image/svg" />
 
     <!-- ===== All CSS files ===== -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />

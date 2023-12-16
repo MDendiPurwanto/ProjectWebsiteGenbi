@@ -235,7 +235,7 @@
     <div class="container">
       <div class="testimonial-container">
         <div class="testimonial-image" data-aos="fade-right" data-aos-duration="1000">
-          <img src="assets/images/1675650993416-removebg-preview.png" alt="Kesan Pengguna">
+          <img src="<?php echo base_url ('assets/images/1675650993416-removebg-preview.png'); ?>" alt="Kesan Pengguna">
         </div>
         <div class="testimonial-content" data-aos="fade-right" data-aos-duration="1000">
           <h2>M.Fikri Aditya</h2>
@@ -402,10 +402,19 @@
   <!-- ====== All Javascript Files ====== -->
   <script src="<?php echo base_url('assets/js/bootstrap.bundle.min.js'); ?>"></script>
   <script src="<?php echo base_url('assets/js/wow.min.js'); ?>"></script>
-  <script src="https://cdn.jsdelivr.net/npm/typed.js"></script>
+  <script src="<?php echo base_url('assets/js/typed.js');?>"></script>
   <script src="<?php echo base_url('assets/js/main.js'); ?>"></script>
   <script src="<?php echo base_url('assets/js/aos.js'); ?>"></script>
   <script src="<?php echo base_url('assets/js/change.js'); ?>"></script>
+  <script src="<?php echo base_url('assets/js/navbar.js'); ?>"></script>
+  <script>const submenuButton = document.querySelectorAll(".nav-item-has-children");
+  submenuButton.forEach((elem) => {
+    elem.querySelector("a").addEventListener("click", () => {
+      elem.querySelector(".ud-submenu").classList.toggle("show");
+    });
+  });
+
+</script>
 
 
   <script>

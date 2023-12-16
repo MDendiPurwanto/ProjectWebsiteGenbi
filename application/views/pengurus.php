@@ -8,7 +8,7 @@
   <title>GenBI Cirebon</title>
 
   <!--====== Favicon Icon ======-->
-  <link rel="shortcut icon" href="assets/images/logo.png" type="image/svg" />
+  <link rel="shortcut icon" href="<?php echo base_url ('assets/images/logo.png'); ?>" type="image/svg" />
 
   <!-- ===== All CSS files ===== -->
   <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>" />
@@ -33,7 +33,7 @@
             <h1>Pengurus GenBI Cirebon</h1>
             <ol class="banner-link">
               <li class="banner-link-nav">
-                <a class="nav-satu" href="">Home</a>
+              <a class="nav-satu" href="<?php echo base_url(''); ?>">Home</a>
               </li>
 
               <li class="banner-link-nav">

@@ -25,6 +25,7 @@
   <link rel="stylesheet" href="<?php echo base_url('assets/css/animate.css'); ?>" />
   <link rel="stylesheet" href="<?php echo base_url('assets/css/lineicons.css'); ?>" />
   <link rel="stylesheet" href="<?php echo base_url('assets/css/ud-styles.css'); ?>" />
+  <link rel="stylesheet" href="<?php echo base_url('assets/css/aos.css'); ?>" />
 
 </head>
 
@@ -39,10 +40,10 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="ud-banner-bi-content">
-            <h1>Event Bank Indonesia</h1>
+            <h1>Halaman Blog</h1>
             <ol class="banner-link">
               <li class="banner-link-nav">
-                <a class="nav-satu" href="">Home</a>
+              <a class="nav-satu" href="<?php echo base_url(''); ?>">Home</a>
               </li>
 
               <li class="banner-link-nav">
@@ -63,17 +64,17 @@
   <section class="ud-blog-grids">
     <div class="container">
       <div class="ud-section-title mx-auto text-center">
-        <span class="tag">
-          Berita
+        <span class="tag" data-aos="fade-up" data-aos-duration="1000">
+          Event
         </span>
-        <h2>Daftar Berita</h2>
+        <h2 data-aos="fade-up" data-aos-duration="1000">berita</h2>
       </div>
       <div class="row">
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
           <div class="ud-single-blog">
             <div class="ud-blog-image">
               <a href="blog-details.html">
-                <img src="assets/images/gren.jpeg" alt="blog" />
+                <img src="<?php echo base_url('assets/images/gren.jpeg'); ?>" alt="blog" />
               </a>
             </div>
             <div class="ud-blog-content">
@@ -84,38 +85,38 @@
                 </a>
               </h3>
               <p class="ud-blog-desc">
-                Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry.
+                Green ekonomi ini dapat juga diartikan perekonomian yang rendah atau tidak menghasilkan emisi karbondioksida terhadap lingkungan , hemat sumber daya alam dan berkeadilan sosial
               </p>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
           <div class="ud-single-blog">
             <div class="ud-blog-image">
               <a href="muri.html">
-                <img src="assets/images/muri.jpeg" alt="blog" />
+                <img src="<?php echo base_url('assets/images/muri.jpeg'); ?>" alt="blog" />
               </a>
             </div>
             <div class="ud-blog-content">
               <span class="ud-blog-date">29 Agustus 2023</span>
               <h3 class="ud-blog-title">
-                <a href="blog-details.html">
+                <a href="<?php echo base_url ('Home/muri');?>">
                   PQN 2023, BI Cirebon Pecahkan MURI 'Docang Terbanyak'
                 </a>
               </h3>
               <p class="ud-blog-desc">
-                Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry.
+                Bank Indonesia Cirebon memecahkan rekor dunia dalam penyajian docang kuliner tradisional khas Cirebon terbanyak.
+
+                Artikel ini telah tayang di jabar.inews.id dengan judul " 1.708 Mangkuk Docang Kuliner
               </p>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
           <div class="ud-single-blog">
             <div class="ud-blog-image">
               <a href="cef.html">
-                <img src="assets/images/cef.jpg" alt="blog" />
+                <img src="<?php echo base_url('assets/images/cef.jpg'); ?>" alt="blog" />
               </a>
             </div>
             <div class="ud-blog-content">
@@ -126,59 +127,56 @@
                 </a>
               </h3>
               <p class="ud-blog-desc">
-                Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry.
+                Sebagai langkah nyata dalam mendorong hal tersebut dan dalam rangka mendukung Gerakan Nasional Bangga Buatan Indonesia (Gernas BBI) dan Gerakan Bangga Wisata Indonesia (GBWI), Kantor Perwakilan Bank Indonesia (KPW BI) Cirebon kembali menggelar Ciayumajakuning Entrepreneur Festival (CEF) 2023.
               </p>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
           <div class="ud-single-blog">
             <div class="ud-blog-image">
               <a href="blog-details.html">
-                <img src="assets/images/WhatsApp Image 2023-09-01 at 18.25.59.jpg" alt="blog" />
+                <img src="<?php echo base_url('assets/images/WhatsApp Image 2023-09-01 at 18.25.59.jpg'); ?>" alt="blog" />
               </a>
             </div>
             <div class="ud-blog-content">
-              <span class="ud-blog-date">29 Agustus 2023</span>
+              <span class="ud-blog-date">21 Juli 2023</span>
               <h3 class="ud-blog-title">
                 <a href="blog-details.html">
                   Pekan Qris Nasional BI Cirebon
                 </a>
               </h3>
               <p class="ud-blog-desc">
-                Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry.
+                Pekan Qris Nasional (PQN) merupakan salah satu event BI Cirebon yang didukung Pemerintah Daerah (Pemda) Cirebon bersama dengan stakeholder lainnya termasuk Kabupaten Kuningan.
               </p>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
           <div class="ud-single-blog">
             <div class="ud-blog-image">
               <a href="blog-details.html">
-                <img src="assets/images/enterpren.jpg" alt="blog" />
+                <img src="<?php echo base_url('assets/images/enterpren.jpg'); ?>" alt="blog" />
               </a>
             </div>
             <div class="ud-blog-content">
-              <span class="ud-blog-date">29 Agustus 2023</span>
+              <span class="ud-blog-date">21 Juli 2023</span>
               <h3 class="ud-blog-title">
                 <a href="blog-details.html">
                   Ciayumajakuning Enterpeneur Festival 2023
                 </a>
               </h3>
               <p class="ud-blog-desc">
-                Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry.
+                Kantor Perwakilan Bank Indonesia Cirebon, Jawa Barat, menggelar Ciayumajakuning Entrepreneur Festival ke-8. Ajang itu diharapkan menumbuhkan ekonomi hijau dan digitalisasi bagi pelaku usaha mikro kecil menengah di Jawa Barat bagian timur
               </p>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
           <div class="ud-single-blog">
-            <div class="ud-blog-image">
+          <div class="ud-blog-image">
               <a href="blog-details.html">
-                <img src="assets/images/gedungBank Indonesia Cirebon.jpeg.jpg" alt="blog" />
+                <img src="<?php echo base_url('assets/images/enterpren.jpg'); ?>" alt="blog" />
               </a>
             </div>
             <div class="ud-blog-content">
@@ -195,11 +193,11 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
           <div class="ud-single-blog">
             <div class="ud-blog-image">
               <a href="blog-details.html">
-                <img src="assets/images/enterpren.jpg" alt="blog" />
+                <img src="<?php base_url('assets/images/enterpren.jpg'); ?>" alt="blog" />
               </a>
             </div>
             <div class="ud-blog-content">
@@ -216,11 +214,11 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
           <div class="ud-single-blog">
             <div class="ud-blog-image">
               <a href="blog-details.html">
-                <img src="assets/images/DSC00115.JPG" alt="blog" />
+                <img src="<?php echo base_url('assets/images/DSC00115.JPG'); ?>" alt="blog" />
               </a>
             </div>
             <div class="ud-blog-content">
@@ -237,11 +235,11 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
           <div class="ud-single-blog">
             <div class="ud-blog-image">
               <a href="blog-details.html">
-                <img src="assets/images/cef.jpg" alt="blog" />
+                <img src="<?php echo base_url('assets/images/cef.jpg'); ?>" alt="blog" />
               </a>
             </div>
             <div class="ud-blog-content">
@@ -258,10 +256,9 @@
             </div>
           </div>
         </div>
-        <div class="button-center">
+        <div class="button-center" >
           <a class="showLess ud-main-btn ud-link-btn " id="showLess" style="display: none;">Lihat lebih sedikit </i></a>
           <a class="loadMore ud-main-btn ud-link-btn" id="loadMore">Lihat Lebih Banyak</a>
-
         </div>
       </div>
     </div>
@@ -280,7 +277,11 @@
   <script src="<?php echo base_url('assets/js/bootstrap.bundle.min.js'); ?>"></script>
   <script src="<?php echo base_url('assets/js/wow.min.js'); ?>"></script>
   <script src="<?php echo base_url('assets/js/main.js'); ?>"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="<?php echo base_url('assets/js/aos.js'); ?>"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="<?php echo base_url ('assets/js/cdnjs.cloudflare.com_ajax_libs_jquery_3.5.1_jquery.min.js');?>"></script>
 
   <script>
     $(document).ready(function() {
