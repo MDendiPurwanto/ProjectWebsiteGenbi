@@ -328,7 +328,7 @@ p {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .navbar-nav .nav-item {
-    padding: 0px 12px;
+    padding: 0px 22px;
   }
 }
 
@@ -4031,7 +4031,7 @@ letter-spacing: .05rem;
   background: linear-gradient(
     rgba(7, 14, 34, 0.72),
     rgba(13, 21, 49, 0.72)
-  ), url("../images/backroun.JPG");
+  ), url("../images/lc1.JPG");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;

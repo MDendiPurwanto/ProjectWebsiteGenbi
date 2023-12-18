@@ -205,13 +205,13 @@
         <div class="col-lg-4 card-kegiatan" data-aos="fade-up" data-aos-duration="3000">
           <div class="kegiatan post-entry">
             <div class="genbi-logo">
-              <img src="assets/images/GenBI original.png" alt="GenBI Logo">
+              <img src="<?php echo base_url ('assets/images/GenBI original.png'); ?>" alt="GenBI Logo">
             </div>
-            <img src="assets/images/lc3.JPG" class="kegiatan-img-top" alt="Image">
+            <img src="<?php echo base_url ('assets/images/genpesid.jpg');?>" class="kegiatan-img-top" alt="Image">
             <div class="kegiatan-body">
               <div><span class="text-uppercase font-weight-bold date">sep 20, 2023</span></div>
               <h5 class="kegiatan-title"><a href="#">Leadership Camp</a></h5>
-              <p>"Leadership Camp GenBI" adalah program pelatihan kepemimpinan yang diselenggarakan oleh GenBI Cirebon untuk mengembangkan keterampilan kepemimpinan, kolaborasi tim, dan pemahaman tentang tanggung jawab sosial di antara anggota GenBI.</p>
+              <p>"Genpesida" adalah program pelatihan kepemimpinan yang diselenggarakan oleh GenBI Cirebon untuk mengembangkan keterampilan kepemimpinan, kolaborasi tim, dan pemahaman tentang tanggung jawab sosial di antara anggota GenBI.</p>
               <p class="mt-5 mb-0"><a href="#">Selengkapnya <i class="lni lni-arrow-right"></i></a></p>
             </div>
           </div>
@@ -251,118 +251,142 @@
   <!-- faq-->
 
   <section id="faq" class="ud-faq">
-    <div class="shape">
-      <img src="assets/images/shape.svg" alt="shape" />
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="ud-section-title text-center mx-auto" data-aos="fade-up" data-aos-duration="1000">
-            <span class="tag">FAQ</span>
-            <h2>Any Questions? Answered</h2>
+      <div class="shape">
+        <img src="assets/images/shape.svg" alt="shape" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="ud-section-title text-center mx-auto" data-aos="fade-up" data-aos-duration="1000">
+              <span class="tag">FAQ</span>
+              <h2>Any Questions? Answered</h2>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="ud-single-faq wow fadeInUp" data-wow-delay=".1s" data-aos="fade-right" data-aos-duration="1000">
-            <div class="accordion">
-              <button class="ud-faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">
-                <span class="icon flex-shrink-0">
-                  <i class="lni lni-chevron-down"></i>
-                </span>
-                <span>Apa itu GenBI ?</span>
-              </button>
-              <div id="collapseOne" class="accordion-collapse collapse">
-                <div class="ud-faq-body">
-                  Generasi Baru Indonesia atau yang lebih akrab dipanggil GenBI adalah komunitas penerima beasiswa Bank Indonesia yang dibentuk di seluruh perguruan tinggi di Indonesia. Komunitas GenBI di resmikan pada tanggal 11 November 2011. Komunitas GenBI ini dikelola dan diperuntukan oleh Mahasiswa penerima Beasiswa dari Bank Indonesia.
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="ud-single-faq wow fadeInUp" data-wow-delay=".1s"  data-aos="fade-right" data-aos-duration="1000">
+              <div class="accordion">
+                <button
+                  class="ud-faq-btn collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                >
+                  <span class="icon flex-shrink-0">
+                    <i class="lni lni-chevron-down"></i>
+                  </span>
+                  <span>Apa itu GenBI ?</span>
+                </button>
+                <div id="collapseOne" class="accordion-collapse collapse">
+                  <div class="ud-faq-body">
+                    Generasi Baru Indonesia atau yang lebih akrab dipanggil GenBI adalah komunitas penerima beasiswa Bank Indonesia yang dibentuk di seluruh perguruan tinggi di Indonesia. Komunitas GenBI di resmikan pada tanggal 11 November 2011. Komunitas GenBI ini dikelola dan diperuntukan oleh Mahasiswa penerima Beasiswa dari Bank Indonesia.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ud-single-faq wow fadeInUp" data-wow-delay=".15s"  data-aos="fade-right" data-aos-duration="1000">
+              <div class="accordion">
+                <button
+                  class="ud-faq-btn collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                >
+                  <span class="icon flex-shrink-0">
+                    <i class="lni lni-chevron-down"></i>
+                  </span>
+                  <span>Apa tujuan GenBI ?</span>
+                </button>
+                <div id="collapseTwo" class="accordion-collapse collapse">
+                  <div class="ud-faq-body">
+                    Generasi Baru Indonesia bertujuan untuk meningkatkan kepekaan sosial masyarakat serta menumbuhkan semangat dan jiwa kepemimpinan. Komunitas GenBI akan dibimbing untuk menebar manfaat energi untuk negeri dengan melakukan beberapa kegiatan yang melibatkan masyarakat. GenBI juga diharapkan mampu menjadi Front Liners, yaitu mengkomunikasikan berbagai kebijakan Bank Indonesia kepada sesama mahasiswa dan Masyarakat Umum, serta menjadi Agents of Change, yaitu menjadi role model di kalangan pelajar, mahasiswa dan masyarakat, dan menjadi Future Leader, yaitu menjadi pemimpin muda di berbagai bidang dan tingkatan.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ud-single-faq wow fadeInUp" data-wow-delay=".2s"  data-aos="fade-right" data-aos-duration="1000">
+              <div class="accordion">
+                <button
+                  class="ud-faq-btn collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                >
+                  <span class="icon flex-shrink-0">
+                    <i class="lni lni-chevron-down"></i>
+                  </span>
+                  <span>Bagaimana peran GenBI dalam Masyarakat ?</span>
+                </button>
+                <div id="collapseThree" class="accordion-collapse collapse">
+                  <div class="ud-faq-body">
+                    Peran GenBI adalah menginspirasi, membimbing, dan memberdayakan generasi muda untuk menjadi agen perubahan yang positif. Mereka berupaya mengajak generasi muda untuk berkontribusi dalam pembangunan sosial, ekonomi, budaya, dan lingkungan di Indonesia.
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="ud-single-faq wow fadeInUp" data-wow-delay=".15s" data-aos="fade-right" data-aos-duration="1000">
-            <div class="accordion">
-              <button class="ud-faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
-                <span class="icon flex-shrink-0">
-                  <i class="lni lni-chevron-down"></i>
-                </span>
-                <span>Apa tujuan GenBI ?</span>
-              </button>
-              <div id="collapseTwo" class="accordion-collapse collapse">
-                <div class="ud-faq-body">
-                  Generasi Baru Indonesia bertujuan untuk meningkatkan kepekaan sosial masyarakat serta menumbuhkan semangat dan jiwa kepemimpinan. Komunitas GenBI akan dibimbing untuk menebar manfaat energi untuk negeri dengan melakukan beberapa kegiatan yang melibatkan masyarakat. GenBI juga diharapkan mampu menjadi Front Liners, yaitu mengkomunikasikan berbagai kebijakan Bank Indonesia kepada sesama mahasiswa dan Masyarakat Umum, serta menjadi Agents of Change, yaitu menjadi role model di kalangan pelajar, mahasiswa dan masyarakat, dan menjadi Future Leader, yaitu menjadi pemimpin muda di berbagai bidang dan tingkatan.
+          <div class="col-lg-6">
+            <div class="ud-single-faq wow fadeInUp" data-wow-delay=".1s"  data-aos="fade-left" data-aos-duration="1000">
+              <div class="accordion">
+                <button
+                  class="ud-faq-btn collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                >
+                  <span class="icon flex-shrink-0">
+                    <i class="lni lni-chevron-down"></i>
+                  </span>
+                  <span>Berapa universitas yang tergabung dalam GenBI Cirebon?
+                  </span>
+                </button>
+                <div id="collapseFour" class="accordion-collapse collapse">
+                  <div class="ud-faq-body">
+                   Terdapat 6 Universitas yang tergabung dalam GenBI Cirebon atau biasa di sebut dengan Komisariat, yaitu Komisariat IAIN Syekh Nurjati, Komisariat UI Bunga Bangsa Cirebon, Komisariat Universitas Majalengka, Komisariat Universitas Kuningan dan Komisariat Universitas Wiralodra.
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="ud-single-faq wow fadeInUp" data-wow-delay=".2s" data-aos="fade-right" data-aos-duration="1000">
-            <div class="accordion">
-              <button class="ud-faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree">
-                <span class="icon flex-shrink-0">
-                  <i class="lni lni-chevron-down"></i>
-                </span>
-                <span>Bagaimana peran GenBI dalam Masyarakat ?</span>
-              </button>
-              <div id="collapseThree" class="accordion-collapse collapse">
-                <div class="ud-faq-body">
-                  Peran GenBI adalah menginspirasi, membimbing, dan memberdayakan generasi muda untuk menjadi agen perubahan yang positif. Mereka berupaya mengajak generasi muda untuk berkontribusi dalam pembangunan sosial, ekonomi, budaya, dan lingkungan di Indonesia.
+            <div class="ud-single-faq wow fadeInUp" data-wow-delay=".15s"  data-aos="fade-left" data-aos-duration="1000">
+              <div class="accordion">
+                <button
+                  class="ud-faq-btn collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive"
+                >
+                  <span class="icon flex-shrink-0">
+                    <i class="lni lni-chevron-down"></i>
+                  </span>
+                  <span>Ada berapa anggota GenBI Cirebon saat ini ?</span>
+                </button>
+                <div id="collapseFive" class="accordion-collapse collapse">
+                  <div class="ud-faq-body">
+                    Saat ini, GenBI Cirebon memiliki anggota sekitar 300 orang yang terorganisir dalam 6 komisariat.
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="ud-single-faq wow fadeInUp" data-wow-delay=".1s" data-aos="fade-left" data-aos-duration="1000">
-            <div class="accordion">
-              <button class="ud-faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFour">
-                <span class="icon flex-shrink-0">
-                  <i class="lni lni-chevron-down"></i>
-                </span>
-                <span>Berapa universitas yang tergabung dalam GenBI Cirebon?
-                </span>
-              </button>
-              <div id="collapseFour" class="accordion-collapse collapse">
-                <div class="ud-faq-body">
-                  Terdapat 6 Universitas yang tergabung dalam GenBI Cirebon atau biasa di sebut dengan Komisariat, yaitu Komisariat IAIN Syekh Nurjati, Komisariat UI Bunga Bangsa Cirebon, Komisariat Universitas Majalengka, Komisariat Universitas Kuningan dan Komisariat Universitas Wiralodra.
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="ud-single-faq wow fadeInUp" data-wow-delay=".15s" data-aos="fade-left" data-aos-duration="1000">
-            <div class="accordion">
-              <button class="ud-faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFive">
-                <span class="icon flex-shrink-0">
-                  <i class="lni lni-chevron-down"></i>
-                </span>
-                <span>Ada berapa anggota GenBI Cirebon saat ini ?</span>
-              </button>
-              <div id="collapseFive" class="accordion-collapse collapse">
-                <div class="ud-faq-body">
-                  Saat ini, GenBI Cirebon memiliki anggota sekitar 300 orang yang terorganisir dalam 6 komisariat.
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="ud-single-faq wow fadeInUp" data-wow-delay=".2s" data-aos="fade-left" data-aos-duration="1000">
-            <div class="accordion">
-              <button class="ud-faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSix">
-                <span class="icon flex-shrink-0">
-                  <i class="lni lni-chevron-down"></i>
-                </span>
-                <span>Ada berapa Divisi yang tergabung di GenBI Cirebon ?</span>
-              </button>
-              <div id="collapseSix" class="accordion-collapse collapse">
-                <div class="ud-faq-body">
-                  Terdapat 4 divisi, yakni Divisi Pendidikan, Divisi Kesehatan, Divisi Kewirausahaan dan Divisi Lingkungan Hidup
+            <div class="ud-single-faq wow fadeInUp" data-wow-delay=".2s" data-aos="fade-left" data-aos-duration="1000">
+              <div class="accordion">
+                <button
+                  class="ud-faq-btn collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSix"
+                >
+                  <span class="icon flex-shrink-0">
+                    <i class="lni lni-chevron-down"></i>
+                  </span>
+                  <span>Ada berapa Divisi yang tergabung di GenBI Cirebon ?</span>
+                </button>
+                <div id="collapseSix" class="accordion-collapse collapse">
+                  <div class="ud-faq-body">
+                    Terdapat 4 divisi, yakni Divisi Pendidikan, Divisi Kesehatan, Divisi Kewirausahaan dan Divisi Lingkungan Hidup
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>  
 
 
   <section class="youtube-section">
@@ -402,19 +426,52 @@
   <!-- ====== All Javascript Files ====== -->
   <script src="<?php echo base_url('assets/js/bootstrap.bundle.min.js'); ?>"></script>
   <script src="<?php echo base_url('assets/js/wow.min.js'); ?>"></script>
-  <script src="<?php echo base_url('assets/js/typed.js');?>"></script>
   <script src="<?php echo base_url('assets/js/main.js'); ?>"></script>
   <script src="<?php echo base_url('assets/js/aos.js'); ?>"></script>
-  <script src="<?php echo base_url('assets/js/change.js'); ?>"></script>
-  <script src="<?php echo base_url('assets/js/navbar.js'); ?>"></script>
   <script>const submenuButton = document.querySelectorAll(".nav-item-has-children");
   submenuButton.forEach((elem) => {
     elem.querySelector("a").addEventListener("click", () => {
       elem.querySelector(".ud-submenu").classList.toggle("show");
     });
   });
-
+  
 </script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const accordionButtons = document.querySelectorAll('.ud-faq-btn');
+
+    accordionButtons.forEach(button => {
+      button.addEventListener('click', function() {
+        this.classList.toggle('collapsed');
+        const body = this.nextElementSibling;
+        if (body.style.display === 'block') {
+          body.style.display = 'none';
+        } else {
+          body.style.display = 'block';
+        }
+      });
+    });
+  });
+</script>
+<!-- Letakkan skrip JavaScript di bagian bawah body atau gunakan event 'DOMContentLoaded' -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const buttons = document.querySelectorAll('.ud-faq-btn');
+
+    buttons.forEach(button => {
+      button.addEventListener('click', function() {
+        const targetId = this.getAttribute('data-bs-target');
+        const targetElement = document.querySelector(targetId);
+
+        if (targetElement.classList.contains('collapse')) {
+          targetElement.classList.toggle('show');
+        }
+      });
+    });
+  });
+</script>
+
 
 
   <script>
@@ -475,48 +532,49 @@
   </script>
 
 
-  <script>
-    // ==== for menu scroll
-    const pageLink = document.querySelectorAll(".ud-menu-scroll");
+<script>
+      // ==== for menu scroll
+      const pageLink = document.querySelectorAll(".ud-menu-scroll");
 
-    pageLink.forEach((elem) => {
-      elem.addEventListener("click", (e) => {
-        e.preventDefault();
-        document.querySelector(elem.getAttribute("href")).scrollIntoView({
-          behavior: "smooth",
-          offsetTop: 1 - 60,
+      pageLink.forEach((elem) => {
+        elem.addEventListener("click", (e) => {
+          e.preventDefault();
+          document.querySelector(elem.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+            offsetTop: 1 - 60,
+          });
         });
       });
-    });
 
-    // section menu active
-    function onScroll(event) {
-      const sections = document.querySelectorAll(".ud-menu-scroll");
-      const scrollPos =
-        window.pageYOffset ||
-        document.documentElement.scrollTop ||
-        document.body.scrollTop;
+      // section menu active
+      function onScroll(event) {
+        const sections = document.querySelectorAll(".ud-menu-scroll");
+        const scrollPos =
+          window.pageYOffset ||
+          document.documentElement.scrollTop ||
+          document.body.scrollTop;
 
-      for (let i = 0; i < sections.length; i++) {
-        const currLink = sections[i];
-        const val = currLink.getAttribute("href");
-        const refElement = document.querySelector(val);
-        const scrollTopMinus = scrollPos + 73;
-        if (
-          refElement.offsetTop <= scrollTopMinus &&
-          refElement.offsetTop + refElement.offsetHeight > scrollTopMinus
-        ) {
-          document
-            .querySelector(".ud-menu-scroll")
-            .classList.remove("active");
-          currLink.classList.add("active");
-        } else {
-          currLink.classList.remove("active");
+        for (let i = 0; i < sections.length; i++) {
+          const currLink = sections[i];
+          const val = currLink.getAttribute("href");
+          const refElement = document.querySelector(val);
+          const scrollTopMinus = scrollPos + 73;
+          if (
+            refElement.offsetTop <= scrollTopMinus &&
+            refElement.offsetTop + refElement.offsetHeight > scrollTopMinus
+          ) {
+            document
+              .querySelector(".ud-menu-scroll")
+              .classList.remove("active");
+            currLink.classList.add("active");
+          } else {
+            currLink.classList.remove("active");
+          }
         }
       }
-    }
 
-    window.document.addEventListener("scroll", onScroll);
+      window.document.addEventListener("scroll", onScroll);
+    </script>
   </script>
 </body>
 

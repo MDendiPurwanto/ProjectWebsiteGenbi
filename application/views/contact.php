@@ -41,7 +41,7 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="ud-banner-genbi-content">
-            <h1>Tentang GenBI</h1>
+            <h1>Kontak </h1>
             <ol class="banner-link">
               <li class="banner-link-nav">
                 <a class="nav-satu" href="index.html">Home</a>
