@@ -16,16 +16,13 @@
   <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>" />
   <link rel="stylesheet" href="<?php echo base_url('assets/css/animate.css'); ?>" />
   <link rel="stylesheet" href="<?php echo base_url('assets/css/lineicons.css'); ?>" />
-  <link rel="stylesheet" href="<?php echo base_url('assets/css/ud-styles.css'); ?>" />
   <link rel="stylesheet" href="<?php echo base_url('assets/css/ud-styles.css.map'); ?>" />
   <script>
     var baseURL = "<?php echo base_url(); ?>";
   </script>
 </head>
 
-<body>
-  <!-- ====== Header Start ====== -->
-  <header class="ud-header">
+<header class="ud-header">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
@@ -86,7 +83,7 @@
                 <a href="<?php echo base_url('Home/blog'); ?>">Berita</a>
               </li>
               <li class="nav-item">
-                <a href="<?php echo base_url('Home/contact'); ?> ">Kontak</a>
+                <a href="<?php echo base_url('Home/contact'); ?> ">Hubungi</a>
               </li>
               <!-- Elemen placeholder untuk tombol "Masuk" di tampilan mobile -->
               <li class="nav-item mobile-login d-sm-inline-block d-lg-none">
@@ -106,6 +103,12 @@
     </div>
   </div>
 </header>
+
+<!-- Letakkan file JavaScript Anda di sini -->
+<script src="script.js"></script>
+</body>
+</html>
+
   <script>
 
   </script>
@@ -114,6 +117,34 @@
   <script src="<?php echo base_url('assets/js/main.js'); ?>"></script>
   <script src="<?php echo base_url('assets/js/change.js'); ?>"></script>
   <script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+  // Ambil tombol "Masuk" pada tampilan desktop
+  const desktopLoginButton = document.querySelector('.desktop-login a');
+
+  // Fungsi untuk memindahkan tombol "Masuk"
+  function moveLoginButton() {
+    // Ambil lebar layar browser
+    const screenWidth = window.innerWidth;
+
+    // Jika lebar layar kurang dari atau sama dengan 991px (tampilan mobile)
+    if (screenWidth <= 991) {
+      // Pindahkan tombol "Masuk" ke dalam elemen <li> pada tampilan mobile
+      document.querySelector('.mobile-login').appendChild(desktopLoginButton);
+    } else {
+      // Jika lebar layar lebih dari 991px (tampilan desktop)
+      // Kembalikan tombol "Masuk" ke posisi awal di luar elemen <li>
+      document.querySelector('.desktop-login').appendChild(desktopLoginButton);
+    }
+  }
+
+  // Panggil fungsi saat halaman dimuat dan saat layar berubah ukurannya
+  moveLoginButton();
+  window.addEventListener('resize', moveLoginButton);
+});
+
+  </script>
+ 
+ <script>
     AOS.init();
   </script>
   <script>const submenuButton = document.querySelectorAll(".nav-item-has-children");
@@ -163,32 +194,13 @@
 </script>
 
 <script>
-  window.addEventListener('DOMContentLoaded', (event) => {
-  // Ambil tombol "Masuk" pada tampilan desktop
-  const desktopLoginButton = document.querySelector('.desktop-login a');
 
-  // Fungsi untuk memindahkan tombol "Masuk"
-  function moveLoginButton() {
-    // Ambil lebar layar browser
-    const screenWidth = window.innerWidth;
-
-    // Jika lebar layar kurang dari atau sama dengan 991px (tampilan mobile)
-    if (screenWidth <= 991) {
-      // Pindahkan tombol "Masuk" ke dalam elemen <li> pada tampilan mobile
-      document.querySelector('.mobile-login').appendChild(desktopLoginButton);
-    } else {
-      // Jika lebar layar lebih dari 991px (tampilan desktop)
-      // Kembalikan tombol "Masuk" ke posisi awal di luar elemen <li>
-      document.querySelector('.desktop-login').appendChild(desktopLoginButton);
-    }
-  }
-
-  // Panggil fungsi saat halaman dimuat dan saat layar berubah ukurannya
-  moveLoginButton();
-  window.addEventListener('resize', moveLoginButton);
-});
 
 </script>
+
+
+
+
 </body>
 
 </html>

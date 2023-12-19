@@ -57,13 +57,13 @@
         <div class="grid ">
           <div class=" card-beasiswa"data-aos="fade-up" data-aos-duration="1000">
             <div class="card-image-beasiswa">
-              <a href="beasiswa-detail.html">
+              <a href="<?php echo base_url ('Home/Beasiswa-detail');?>">
                 <img src="<?php echo base_url('assets/images/Cardboard-08 (1).jpg'); ?>" alt="">
               </a>
             </div>
             <div class="bi-body">
               <span>20 nov 2023</span>
-              <a href="#">Daftar Mahasiswa penerima Beasiswa Bank Indonesia</a>
+              <a href="<?php echo base_url ('Home/Beasiswa-detail');?>">Daftar Mahasiswa penerima Beasiswa Bank Indonesia</a>
             </div>
           </div>
           <div class=" card-beasiswa"data-aos="fade-up" data-aos-duration="1000">
@@ -79,7 +79,7 @@
           </div>
           <div class=" card-beasiswa"data-aos="fade-up" data-aos-duration="1000">
             <div class="card-image-beasiswa">
-              <a href="beasiswa-detail.html">
+              <a href="<?php echo base_url ('Home/Beasiswa-detail');?>">
                 <img src="<?php echo base_url('assets/images/beasiswa.jpg'); ?>" alt="">
               </a>
             </div>

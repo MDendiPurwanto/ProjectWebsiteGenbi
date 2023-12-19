@@ -328,7 +328,8 @@ p {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .navbar-nav .nav-item {
-    padding: 0px 22px;
+    padding: 0px 12px;
+    margin-top: 120px;
   }
 }
 
@@ -348,9 +349,7 @@ p {
   position: relative;
 }
 
- .nav-item  .active {
-  
-}
+
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .navbar-nav .nav-item > a {
@@ -358,7 +357,9 @@ p {
     padding: 8px 0;
     color: var(--heading-color);
   }
+ 
 }
+
 
 .navbar-nav .nav-item > a:hover, .navbar-nav .nav-item > a.active {
   color: var(--white);
@@ -437,6 +438,11 @@ p {
   opacity: 1;
 } 
 
+.navbar-btn .ud-main-btn,
+.mobile-login .ud-main-btn {
+  color: white !important; /* Set text color to white */
+}
+
 .navbar-nav .nav-item.nav-item-has-children > a {
   position: relative;
 }
@@ -456,6 +462,8 @@ p {
   top: 50%;
   margin-top: -2px;
 }
+
+
 
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
@@ -1292,116 +1300,121 @@ p {
 }
 
 /* ===== FAQ CSS ===== */
-.ud-faq {
-  padding-top: 120px;
-  padding-bottom: 90px;
-  background: #f3f4fe;
-  position: relative;
-  z-index: 1;
-}
 
-@media (max-width: 767px) {
-  .ud-faq {
-    padding-top: 80px;
-    padding-bottom: 50px;
-  }
+.faq-section {
+  background: #fdfdfd;
+  min-height: 100vh;
+  padding: 20vh 0 0;
 }
-
-.ud-faq .shape {
+.faq-title h2 {
+position: relative;
+margin-bottom: 45px;
+display: inline-block;
+font-weight: 600;
+line-height: 1;
+}
+.faq-title h2::before {
+  content: "";
   position: absolute;
-  z-index: -1;
-  left: 0;
-  bottom: 0;
+  left: 50%;
+  width: 60px;
+  height: 2px;
+  background: var(--primary-color);
+  bottom: -25px;
+  margin-left: -30px;
+}
+.faq-title p {
+padding: 0 190px;
+margin-bottom: 10px;
 }
 
-.ud-single-faq {
-  background: var(--white);
-  border: 1px solid #f3f4fe;
-  -webkit-box-shadow: 0px 20px 95px rgba(201, 203, 204, 0.3);
-          box-shadow: 0px 20px 95px rgba(201, 203, 204, 0.3);
-  border-radius: 10px;
+.faq {
+background: #FFFFFF;
+box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
+border-radius: 4px;
+}
+
+.faq .card {
+border: none;
+background: none;
+border-bottom: 1px dashed #CEE1F8;
+}
+
+.faq .card .card-header {
+padding: 0px;
+border: none;
+background: none;
+-webkit-transition: all 0.3s ease 0s;
+-moz-transition: all 0.3s ease 0s;
+-o-transition: all 0.3s ease 0s;
+transition: all 0.3s ease 0s;
+}
+
+.faq .card .card-header:hover {
+  background: rgba(63, 19, 221, 0.1);
+  padding-left: 10px;
+}
+.faq .card .card-header .faq-title {
+width: 100%;
+text-align: left;
+padding: 0px;
+padding-left: 30px;
+padding-right: 30px;
+font-weight: 400;
+font-size: 15px;
+letter-spacing: 1px;
+color: #5834b9;
+text-decoration: none !important;
+-webkit-transition: all 0.3s ease 0s;
+-moz-transition: all 0.3s ease 0s;
+-o-transition: all 0.3s ease 0s;
+transition: all 0.3s ease 0s;
+cursor: pointer;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.faq .card .card-header .faq-title .badge {
+display: inline-block;
+width: 20px;
+height: 20px;
+line-height: 14px;
+-webkit-border-radius: 100px;
+-moz-border-radius: 100px;
+border-radius: 100px;
+text-align: center;
+background: var(--primary-color);
+color: #fff;
+font-size: 12px;
+margin-right: 20px;
+text-align: center;
+}
+
+.faq .card .card-body {
+padding: 30px;
+padding-left: 35px;
+padding-bottom: 16px;
+font-weight: 400;
+font-size: 16px;
+color: #6F8BA4;
+line-height: 28px;
+letter-spacing: 1px;
+border-top: 1px solid #F3F8FF;
+}
+
+.faq .card .card-body p {
+margin-bottom: 14px;
+}
+
+@media (max-width: 991px) {
+.faq {
   margin-bottom: 30px;
 }
-
-.ud-single-faq .ud-faq-btn {
-  text-align: left;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  height: 100px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border: none;
-  background: transparent;
-  font-weight: 600;
-  font-size: 18px;
-  color: var(--heading-color);
-  opacity: 0.88;
-  padding: 30px;
+.faq .card .card-header .faq-title {
+  line-height: 26px;
+  margin-top: 10px;
 }
-
-@media only screen and (min-width: 992px) and (max-width: 1199px), (max-width: 767px) {
-  .ud-single-faq .ud-faq-btn {
-    padding: 15px;
-    font-size: 16px;
-    height: 100%;
-  }
-
-  .ud-faq-body {
-    font-size: 15px;
-  }
-
- 
 }
-
-
-
-
-.ud-single-faq .ud-faq-btn.collapsed span.icon i {
-  -webkit-transform: rotate(0deg);
-  transform: rotate(0deg);
-}
-
-.ud-single-faq .ud-faq-btn span.icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 42px;
-  height: 42px;
-  background: rgba(48, 86, 211, 0.06);
-  border-radius: 10px;
-  color: var(--primary-color);
-  margin-right: 24px;
-}
-
-.ud-single-faq .ud-faq-btn span.icon i {
-  -webkit-transform: rotate(180deg);
-  transform: rotate(180deg);
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  font-size: 14px;
-  font-weight: 700;
-}
-
-.ud-single-faq .ud-faq-body {
-  padding: 0px 30px 40px 95px;
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1199px), (max-width: 767px) {
-  .ud-single-faq .ud-faq-body {
-    padding: 0px 16px 20px 82px;
-  }
-}
-
-
 
 .ud-brands .ud-title {
   margin-bottom: 30px;
@@ -1804,7 +1817,7 @@ p {
 .ud-widget .ud-widget-brands img {
   border: 2px solid white;
   display: block;
-  width: 260px;
+  width: 120px;
   margin-bottom: 20px;
   margin-right: 20px;
   background-color: white;
@@ -2023,7 +2036,12 @@ p {
   }
 }
 
-
+.bi-about .genbi-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+}
 
 .banner-link{
   display: flex;
@@ -3186,12 +3204,12 @@ p {
 }
 
 /* tentang-bi */
-.bankindo{
+.bankindo {
   padding-top: 110px;
   padding-bottom: 20px;
 }
 
-.bankindo .bi-content{
+.bankindo .bi-content {
   padding-top: 30px;
   padding-bottom: 0px;
   text-align: justify;
@@ -3202,13 +3220,14 @@ p {
   padding-bottom: 0px;
 }
 
- .bi-content h4 {
+.bi-content h4 {
   font-size: 18px;
   padding-top: 10px;
   padding-bottom: 10px;
-  text-align: center; 
+  text-align: center;
   text-decoration: underline;
 }
+
 .bankindo .bi-content h3 {
   font-size: 15px;
   padding-top: 10px;
@@ -3216,7 +3235,7 @@ p {
 }
 
 .bi-content li {
-  list-style-type:square;
+  list-style-type: square;
 }
 
 /* kpwbi */
@@ -4710,6 +4729,11 @@ letter-spacing: .05rem;
 
 
 /* youtube */
+
+.youtube {
+  padding-top: 40px ;
+  padding-top: 40px ;
+}
 .youtube-section {
   display: flex;
   justify-content: center;
@@ -4732,7 +4756,7 @@ letter-spacing: .05rem;
 }
 
 .youtube-title {
-  font-size: 44px;
+  font-size: 38px;
   font-weight: 800;
   margin-bottom: 10px;
 }
@@ -4747,7 +4771,7 @@ letter-spacing: .05rem;
 }
 
 .youtube-thumbnail img {
-  width: 300px;
+  width: 400px;
   height: auto;
 }
 

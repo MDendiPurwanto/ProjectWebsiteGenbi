@@ -10,7 +10,7 @@
     <!--====== Favicon Icon ======-->
     <link rel="shortcut icon" href="<?php echo base_url ('assets/images/logo.png'); ?>" type="image/svg" />
     <!-- ===== All CSS files ===== -->
-    <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>" />
+
 <link rel="stylesheet" href="<?php echo base_url('assets/css/animate.css'); ?>" />
 <link rel="stylesheet" href="<?php echo base_url('assets/css/lineicons.css'); ?>" />
 <link rel="stylesheet" href="<?php echo base_url('assets/css/ud-styles.css'); ?>" />

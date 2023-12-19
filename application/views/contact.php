@@ -89,7 +89,7 @@
                   <div class="ud-info-meta" >
                     <h5>Messege</h5>
                     <p>genbicirebon@gmail.com</p>
-                    <p>contact@yourdomain.com</p>
+                    <p>genbi.cirebon1411@gmail.com</p>
                   </div>
                 </div>
               </div>
@@ -123,7 +123,7 @@
                   <input
                     type="text"
                     name="phone"
-                    placeholder="+885 1254 5211 552" data-aos="fade-left" data-aos-duration="1000"
+                    placeholder="+62 821 5211 552" data-aos="fade-left" data-aos-duration="1000"
                   />
                 </div>
                 <div class="ud-form-group">

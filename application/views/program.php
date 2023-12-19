@@ -88,7 +88,7 @@
             <div class="genbi-logo">
               <img src="<?php echo base_url('assets/images/GenBI original.png'); ?>" alt="GenBI Logo">
             </div>
-            <img src="<?php echo base_url('assets/images/lc3.JPG'); ?>" class="kegiatan-img-top" alt="Image">
+            <img src="<?php echo base_url('assets/images/lc1.JPG'); ?>" class="kegiatan-img-top" alt="Image">
             <div class="kegiatan-body">
               <div><span class="text-uppercase font-weight-bold date">sep 20, 2023</span></div>
               <h5 class="kegiatan-title"><a href="#">Leadership Camp</a></h5>
@@ -160,7 +160,7 @@
               <img src="<?php echo base_url('assets/images/GenBI original.png'); ?>" alt="GenBI Logo">
             </div>
             <img src="<?php echo base_url('assets/images/IMG_1965.JPG'); ?>" class="kegiatan-img-top" alt="Image">
-            <div class="kegiatan-body">>
+            <div class="kegiatan-body">
               <div><span class="text-uppercase font-weight-bold date">sep 20, 2023</span></div>
               <h5 class="kegiatan-title"><a href="#">GenBI Goes To Pare-Pare</a></h5>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
@@ -169,20 +169,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 card-kegiatan" data-aos="fade-up" data-aos-duration="1000">
-          <div class="kegiatan post-entry">
-            <div class="genbi-logo">
-              <img src="<?php echo base_url('assets/images/GenBI original.png'); ?>" alt="GenBI Logo">
-            </div>
-            <img src="<?php echo base_url('assets/images/back2.JPG'); ?>" class="kegiatan-img-top" alt="Image">
-            <div class="kegiatan-body">
-              <div><span class="text-uppercase font-weight-bold date">sep 20, 2023</span></div>
-              <h5 class="kegiatan-title"><a href="#">Behind the word mountains</a></h5>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-              <p class="mt-5 mb-0 tombol"><a href="#">Selengkapnya</a></p>
-            </div>
-          </div>
-        </div>
+        
         <div class="button-center">
           <a class="showLess ud-main-btn ud-link-btn " id="showLess" style="display: none;">Lihat lebih sedikit </i></a>
           <a class="loadMore ud-main-btn ud-link-btn" id="loadMore">Lihat Lebih Banyak</a>

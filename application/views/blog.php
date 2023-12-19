@@ -93,7 +93,7 @@
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
           <div class="ud-single-blog">
             <div class="ud-blog-image">
-              <a href="muri.html">
+              <a href="<?php echo base_url ('Home/muri');?>">
                 <img src="<?php echo base_url('assets/images/muri.jpeg'); ?>" alt="blog" />
               </a>
             </div>
@@ -108,6 +108,26 @@
                 Bank Indonesia Cirebon memecahkan rekor dunia dalam penyajian docang kuliner tradisional khas Cirebon terbanyak.
 
                 Artikel ini telah tayang di jabar.inews.id dengan judul " 1.708 Mangkuk Docang Kuliner
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
+          <div class="ud-single-blog">  
+            <div class="ud-blog-image">
+              <a href="blog-details.html">
+                <img src="<?php echo base_url('assets/images/WhatsApp Image 2023-09-01 at 18.25.59.jpg'); ?>" alt="blog" />
+              </a>
+            </div>
+            <div class="ud-blog-content">
+              <span class="ud-blog-date">21 Juli 2023</span>
+              <h3 class="ud-blog-title">
+                <a href="blog-details.html">
+                  Pekan Qris Nasional BI Cirebon
+                </a>
+              </h3>
+              <p class="ud-blog-desc">
+                Pekan Qris Nasional (PQN) merupakan salah satu event BI Cirebon yang didukung Pemerintah Daerah (Pemda) Cirebon bersama dengan stakeholder lainnya termasuk Kabupaten Kuningan.
               </p>
             </div>
           </div>
@@ -136,26 +156,6 @@
           <div class="ud-single-blog">
             <div class="ud-blog-image">
               <a href="blog-details.html">
-                <img src="<?php echo base_url('assets/images/WhatsApp Image 2023-09-01 at 18.25.59.jpg'); ?>" alt="blog" />
-              </a>
-            </div>
-            <div class="ud-blog-content">
-              <span class="ud-blog-date">21 Juli 2023</span>
-              <h3 class="ud-blog-title">
-                <a href="blog-details.html">
-                  Pekan Qris Nasional BI Cirebon
-                </a>
-              </h3>
-              <p class="ud-blog-desc">
-                Pekan Qris Nasional (PQN) merupakan salah satu event BI Cirebon yang didukung Pemerintah Daerah (Pemda) Cirebon bersama dengan stakeholder lainnya termasuk Kabupaten Kuningan.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
-          <div class="ud-single-blog">
-            <div class="ud-blog-image">
-              <a href="blog-details.html">
                 <img src="<?php echo base_url('assets/images/enterpren.jpg'); ?>" alt="blog" />
               </a>
             </div>
@@ -172,90 +172,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
-          <div class="ud-single-blog">
-          <div class="ud-blog-image">
-              <a href="blog-details.html">
-                <img src="<?php echo base_url('assets/images/enterpren.jpg'); ?>" alt="blog" />
-              </a>
-            </div>
-            <div class="ud-blog-content">
-              <span class="ud-blog-date">29 Agustus 2023</span>
-              <h3 class="ud-blog-title">
-                <a href="blog-details.html">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, quibusdam.
-                </a>
-              </h3>
-              <p class="ud-blog-desc">
-                Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
-          <div class="ud-single-blog">
-            <div class="ud-blog-image">
-              <a href="blog-details.html">
-                <img src="<?php base_url('assets/images/enterpren.jpg'); ?>" alt="blog" />
-              </a>
-            </div>
-            <div class="ud-blog-content">
-              <span class="ud-blog-date">29 Agustus 2023</span>
-              <h3 class="ud-blog-title">
-                <a href="blog-details.html">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, tenetur!
-                </a>
-              </h3>
-              <p class="ud-blog-desc">
-                Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
-          <div class="ud-single-blog">
-            <div class="ud-blog-image">
-              <a href="blog-details.html">
-                <img src="<?php echo base_url('assets/images/DSC00115.JPG'); ?>" alt="blog" />
-              </a>
-            </div>
-            <div class="ud-blog-content">
-              <span class="ud-blog-date">29 Agustus 2023</span>
-              <h3 class="ud-blog-title">
-                <a href="blog-details.html">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </a>
-              </h3>
-              <p class="ud-blog-desc">
-                Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
-          <div class="ud-single-blog">
-            <div class="ud-blog-image">
-              <a href="blog-details.html">
-                <img src="<?php echo base_url('assets/images/cef.jpg'); ?>" alt="blog" />
-              </a>
-            </div>
-            <div class="ud-blog-content">
-              <span class="ud-blog-date">29 Agustus 2023</span>
-              <h3 class="ud-blog-title">
-                <a href="blog-details.html">
-                  Lorem ipsum dolor sit amet.
-                </a>
-              </h3>
-              <p class="ud-blog-desc">
-                Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry.
-              </p>
-            </div>
-          </div>
-        </div>
+            
         <div class="button-center" >
           <a class="showLess ud-main-btn ud-link-btn " id="showLess" style="display: none;">Lihat lebih sedikit </i></a>
           <a class="loadMore ud-main-btn ud-link-btn" id="loadMore">Lihat Lebih Banyak</a>

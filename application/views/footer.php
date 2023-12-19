@@ -77,13 +77,14 @@
                   <li>
                     <a
                       href="#"
-                      >00000000
+                      >
+                      +2121211
                     </a>
                   </li>
                   <li>
                     <a
                       href="#"
-                      >@gmail.com
+                      >genbi.cirebon1411@gmail.com
                     </a>
                   </li>
                 </ul>
